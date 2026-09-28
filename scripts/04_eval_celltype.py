@@ -26,7 +26,8 @@ p.add_argument("--labels", nargs="*", default=[SUBCLASS, SUPERTYPE])
 p.add_argument("--n-perm", type=int, default=2)
 p.add_argument("--min-cells", type=int, default=100)
 p.add_argument("--min-donors", type=int, default=20)
-p.add_argument("--baseline", default="pca_harmony")
+p.add_argument("--baselines", nargs="+", default=["pca_harmony", "pca"],
+               help="paired tests are run against each")
 a = p.parse_args()
 
 out = os.path.join(RESULTS, "celltype")
@@ -126,20 +127,21 @@ D = pd.DataFrame(perdonor); D.to_csv(f"{out}/per_donor.tsv", sep="\t", index=Fal
 pd.DataFrame(perclass).to_csv(f"{out}/per_class_f1.tsv", sep="\t", index=False)
 pd.concat(calib).to_csv(f"{out}/reliability.tsv", sep="\t", index=False)
 
-# paired, donor-level comparison against the baseline
+# paired, donor-level comparison against each baseline
 rows = []
 for (label, pr), g in D.groupby(["label", "probe"]):
     w = g.pivot(index="donor", columns="embedding", values="macro_f1")
-    if a.baseline not in w:
-        continue
-    for emb in w.columns:
-        if emb == a.baseline:
+    for base in a.baselines:
+        if base not in w:
             continue
-        diff = (w[emb] - w[a.baseline]).dropna()
-        p_ = wilcoxon(diff).pvalue if (diff != 0).any() else 1.0
-        rows.append(dict(label=label, probe=pr, embedding=emb, baseline=a.baseline,
-                         n_donors=len(diff), median_diff=diff.median(),
-                         donors_better=int((diff > 0).sum()), wilcoxon_p=p_))
+        for emb in w.columns:
+            if emb == base:
+                continue
+            diff = (w[emb] - w[base]).dropna()
+            p_ = wilcoxon(diff).pvalue if (diff != 0).any() else 1.0
+            rows.append(dict(label=label, probe=pr, embedding=emb, baseline=base,
+                             n_donors=len(diff), median_diff=diff.median(),
+                             donors_better=int((diff > 0).sum()), wilcoxon_p=p_))
 P = pd.DataFrame(rows)
 if len(P):
     P["q"] = ek.bh(P.wilcoxon_p)
