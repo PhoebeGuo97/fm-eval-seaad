@@ -20,7 +20,7 @@ subclass, raw UMI counts. Same release and cohort as
 
 | name | what | role |
 | --- | --- | --- |
-| `pca` | 2000 HVGs, log-normalized, scaled, 50 PCs | baseline |
+| `pca` | 2000 HVGs (seurat_v3, pooled over donors), log-normalized, scaled, 50 PCs | baseline |
 | `pca_harmony` | the same PCs, Harmony-corrected for donor | primary baseline |
 | `randproj` | the same HVG matrix, 50-d Gaussian random projection | floor |
 | `gf_v2_104m_cls` | Geneformer V2-104M, CLS token, second-to-last layer | test |

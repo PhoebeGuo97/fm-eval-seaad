@@ -37,12 +37,20 @@ print(f"{a.n_obs:,} cells, {a.obs[DONOR].nunique()} donors")
 # only for machines where scikit-misc will not build (the smoke test VM).
 flavor = os.environ.get("FMEVAL_HVG_FLAVOR", "seurat_v3")
 n_hvg = min(N_HVG, a.n_vars // 2)
+# seurat_v3 is run over all cells, not per donor. With batch_key=donor the loess
+# fit is done within each donor (~660 nuclei), where thousands of genes share
+# the same tiny mean (one or two counts), and it fails as singular
+# ("reciprocal condition number 6e-16"). Donors are already balanced by the
+# per-donor cap, so a pooled fit does not let any donor dominate selection.
+# Genes seen in fewer than 20 nuclei are dropped first for the same reason.
+sc.pp.filter_genes(a, min_cells=20)
+print(f"  {a.n_vars:,} genes detected in >= 20 nuclei")
 if flavor == "seurat_v3":
-    sc.pp.highly_variable_genes(a, n_top_genes=n_hvg, flavor=flavor, batch_key=DONOR)
+    sc.pp.highly_variable_genes(a, n_top_genes=n_hvg, flavor=flavor)
 sc.pp.normalize_total(a, target_sum=1e4)
 sc.pp.log1p(a)
 if flavor != "seurat_v3":
-    sc.pp.highly_variable_genes(a, n_top_genes=n_hvg, flavor=flavor, batch_key=DONOR)
+    sc.pp.highly_variable_genes(a, n_top_genes=n_hvg, flavor=flavor)
 print(f"  HVG: {int(a.var.highly_variable.sum())} ({flavor})")
 a = a[:, a.var.highly_variable].copy()
 sc.pp.scale(a, max_value=10)
