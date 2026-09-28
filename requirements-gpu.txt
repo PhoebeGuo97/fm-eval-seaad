@@ -1,0 +1,4 @@
+# GPU instance only, installed by aws/run_gpu.sh after torch and after
+# `pip install ~/Geneformer` (which brings transformers, datasets, anndata).
+pyarrow>=15
+awscli
