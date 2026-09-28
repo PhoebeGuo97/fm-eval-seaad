@@ -64,27 +64,48 @@ def donor_rng(donor, seed):
     return np.random.default_rng([seed, zlib.crc32(donor.encode())])
 
 
+def csr_rows(g, idx):
+    """Read only the requested rows of an on-disk CSR matrix (h5py group)."""
+    indptr = g["indptr"][:]
+    starts, ends = indptr[idx], indptr[idx + 1]
+    data = np.concatenate([g["data"][s:e] for s, e in zip(starts, ends)])
+    ind = np.concatenate([g["indices"][s:e] for s, e in zip(starts, ends)])
+    ptr = np.concatenate([[0], np.cumsum(ends - starts)])
+    return sp.csr_matrix((data.astype(np.float32), ind, ptr),
+                         shape=(len(idx), int(g.attrs["shape"][1])))
+
+
 def subsample(path, donor, a):
-    x = ad.read_h5ad(path)
-    ct = x.obs["Subclass"].astype(str).to_numpy()
-    rng = donor_rng(donor, a.seed)
-    pick = []
-    for lvl in sorted(pd.unique(ct)):          # sorted: order-independent draws
-        pos = np.flatnonzero(ct == lvl)
-        pick.append(rng.choice(pos, size=min(len(pos), a.max_per_stratum), replace=False))
-    s = x[np.sort(np.concatenate(pick))].copy()
-    X = s.layers["UMIs"] if "UMIs" in s.layers else s.X
-    X = sp.csr_matrix(X) if not sp.issparse(X) else X.tocsr()
+    """Memory-light: obs and var are read whole, but only the chosen rows of
+    the counts layer and of X_scVI are read from disk. Loading a whole donor
+    object (X, UMIs, obsp graphs, all float64) was OOM-killed at 16 GB."""
+    import h5py
+    from anndata.experimental import read_elem
+    with h5py.File(path, "r") as f:
+        obs = read_elem(f["obs"])
+        var = read_elem(f["var"])
+        ct = obs["Subclass"].astype(str).to_numpy()
+        rng = donor_rng(donor, a.seed)
+        pick = []
+        for lvl in sorted(pd.unique(ct)):          # sorted: order-independent draws
+            pos = np.flatnonzero(ct == lvl)
+            pick.append(rng.choice(pos, size=min(len(pos), a.max_per_stratum), replace=False))
+        idx = np.sort(np.concatenate(pick))
+        g = f["layers/UMIs"] if "layers" in f and "UMIs" in f["layers"] else f["X"]
+        if g.attrs.get("encoding-type") != "csr_matrix":
+            sys.exit(f"{path}: counts are {g.attrs.get('encoding-type')}, expected csr_matrix")
+        X = csr_rows(g, idx)
+        scvi = f["obsm/X_scVI"][idx] if "obsm" in f and "X_scVI" in f["obsm"] else None
     if X.nnz and not np.allclose(X.data[:10000], np.round(X.data[:10000])):
         sys.exit(f"{path}: counts are not integers; wrong layer?")
-    s.X = X.astype(np.float32)
-    s.layers.clear(); s.raw = None
-    s.obs = s.obs[[c for c in KEEP_OBS if c in s.obs.columns]].copy()
-    s.obs["cell_id"] = s.obs_names.astype(str)
-    for k in list(s.obsm):
-        if k != "X_scVI":
-            del s.obsm[k]
-    s.obsp.clear(); s.uns.clear(); s.varm.clear()
+    o = obs.iloc[idx]
+    o = o[[c for c in KEEP_OBS if c in o.columns]].copy()
+    o["cell_id"] = o.index.astype(str)
+    s = ad.AnnData(X, obs=o, var=var)
+    if scvi is not None:
+        s.obsm["X_scVI"] = np.asarray(scvi, dtype=np.float32)
+    for c in s.obs.select_dtypes("category").columns:
+        s.obs[c] = s.obs[c].cat.remove_unused_categories()
     return s
 
 
