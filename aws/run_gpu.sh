@@ -35,9 +35,19 @@ FMEVAL_DATA=data python scripts/03_geneformer_embed.py --gf-repo ~/Geneformer \
     --work work/gf_debug --max-cells 200 --batch 8 || { echo "debug run failed"; exit 1; }
 rm -f data/embeddings/gf_*.parquet   # debug output, 200 cells only
 
-# ---- full extraction: pretrained V2-104M and the random-init control
+# ---- swap: g5.xlarge has 16 GB RAM and no swap; tokenizer workers were OOM-killed
+if ! swapon --show | grep -q /swapfile; then
+  sudo fallocate -l 32G /swapfile && sudo chmod 600 /swapfile && \
+  sudo mkswap /swapfile >/dev/null && sudo swapon /swapfile
+fi
+
+# ---- full extraction: pretrained V2-104M and the random-init control.
+# --nproc 1: with 4 tokenizer workers on 55k cells, a worker was killed for
+# memory ("subprocess has abruptly died during map"). One worker is slower
+# (~10 min) but only tokenization uses it.
+rm -rf work/geneformer/tok_out   # a killed map can leave a partial dataset
 python scripts/03_geneformer_embed.py --gf-repo ~/Geneformer \
-    --models Geneformer-V2-104M --random-control --batch "${BATCH:-16}"
+    --models Geneformer-V2-104M --random-control --batch "${BATCH:-16}" --nproc 1
 
 tar czf work/fm_eval_outputs.tgz data/seaad_mtg_84.h5ad data/embeddings \
     work/geneformer/tokenization_report.json config/donors.txt
