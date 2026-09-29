@@ -9,7 +9,7 @@ export FMEVAL_DATA="$T/data" FMEVAL_RESULTS="$T/results"
 $PY tests/make_synthetic.py "$T/data"
 $PY scripts/02_baseline_embeddings.py
 $PY scripts/04_eval_celltype.py --n-perm 1 --min-cells 50 --min-donors 10
-$PY scripts/05_eval_donor.py --repeats 2 --n-perm 50 --n-perm-subclass 20
+$PY scripts/05_eval_donor.py --repeats 2 --n-perm 50 --n-perm-subclass 20 --n-perm-incr 10
 $PY scripts/06_batch_retention.py --min-cells 100
 $PY - <<'PY'
 import os, pandas as pd

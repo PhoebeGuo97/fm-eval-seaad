@@ -40,7 +40,10 @@ p = argparse.ArgumentParser()
 p.add_argument("--embeddings", nargs="*", default=None)
 p.add_argument("--repeats", type=int, default=5)
 p.add_argument("--n-perm", type=int, default=1000, help="combined model")
-p.add_argument("--n-perm-subclass", type=int, default=200)
+p.add_argument("--n-perm-subclass", type=int, default=1000,
+               help="200 floors p at 0.005, which floors BH q across 24 subclasses")
+p.add_argument("--n-perm-incr", type=int, default=500,
+               help="conditional null for combined+cov: embedding rows permuted, covariates fixed")
 p.add_argument("--n-pc", type=int, default=10)
 p.add_argument("--min-cells", type=int, default=5,
                help="donor needs this many cells of a subclass to contribute")
@@ -181,8 +184,24 @@ for emb in embs:
         pr, auc, sd = cv_prob(F, y, C=0.1)
         pv, null = perm_p(F, y, 0.1, auc, a.n_perm, 3)
         nulls[f"{emb}|{model}"] = null
+        extra = {}
+        if cX is not None and a.n_perm_incr:
+            # Does the embedding add anything beyond the covariates? Shuffle
+            # which donor each embedding row belongs to, keep labels and
+            # covariates attached to the true donor, recompute the statistic.
+            rng = np.random.default_rng(4)
+            inull = []
+            for _ in range(a.n_perm_incr):
+                perm = rng.permutation(len(y))
+                Fp = featurize([B[perm] for B in full_blocks], cX, splits)
+                inull.append(cv_prob(Fp, y, 0.1)[1])
+            inull = np.array(inull)
+            extra = dict(incr_null_mean=float(inull.mean()),
+                         incr_perm_p=float((1 + (inull >= auc).sum()) / (1 + len(inull))))
+            print(f"    embedding beyond covariates: AUROC {auc:.3f} vs "
+                  f"{inull.mean():.3f} with embedding shuffled, p {extra['incr_perm_p']:.3g}")
         record(rows, preds, embedding=emb, model=model, subclass=f"{len(full_blocks)} subclasses",
-               n_donors=len(y), auc_mean_repeats=auc, auc_sd_repeats=sd, perm_p=pv,
+               n_donors=len(y), auc_mean_repeats=auc, auc_sd_repeats=sd, perm_p=pv, **extra,
                y=y, prob=pr, donors=donors)
         print(f"  {emb:24s} {model:13s} AUROC {auc:.3f} +/- {sd:.3f} "
               f"perm p {pv:.3g}", flush=True)
@@ -195,8 +214,9 @@ for emb, g in R[R.model == "per_subclass"].groupby("embedding"):
 R.to_csv(f"{out}/summary.tsv", sep="\t", index=False)
 pd.concat(preds).to_csv(f"{out}/oof_predictions.tsv", sep="\t", index=False)
 pd.DataFrame(nulls).to_csv(f"{out}/null_auroc.tsv", sep="\t", index=False)
-print(R[R.model != "per_subclass"][["embedding", "model", "auc_mean_repeats",
-      "perm_p", "brier", "ece", "spearman_adnc"]].to_string(index=False))
+cols = ["embedding", "model", "auc_mean_repeats", "perm_p", "incr_perm_p",
+        "brier", "ece", "spearman_adnc"]
+print(R[R.model != "per_subclass"][[c for c in cols if c in R]].to_string(index=False))
 top = R[R.model == "per_subclass"].sort_values("perm_p").head(15)
 print("\nbest per-subclass models:\n" + top[["embedding", "subclass", "n_donors",
       "auc_mean_repeats", "perm_p", "perm_q_within_embedding"]].to_string(index=False))
