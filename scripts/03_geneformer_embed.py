@@ -99,7 +99,9 @@ for name, mdir in model_dirs.items():
         ex = EmbExtractor(model_type="Pretrained", emb_mode=mode, max_ncells=None,
                           emb_layer=-1, emb_label=[CELL_ID],
                           forward_batch_size=a.batch, nproc=a.nproc, model_version="V2")
-        embs = ex.extract_embs(mdir, ds_path, f"{a.work}/emb_{tag}", tag)
+        out_dir = f"{a.work}/emb_{tag}"
+        os.makedirs(out_dir, exist_ok=True)   # EmbExtractor writes a CSV but does not create its directory
+        embs = ex.extract_embs(mdir, ds_path, out_dir, tag)
         embs = embs.set_index(CELL_ID)
         embs.index = embs.index.astype(str); embs.index.name = CELL_ID
         embs.columns = [f"d{c}" for c in range(embs.shape[1])]
