@@ -11,6 +11,7 @@ $PY scripts/02_baseline_embeddings.py
 $PY scripts/04_eval_celltype.py --n-perm 1 --min-cells 50 --min-donors 10
 $PY scripts/05_eval_donor.py --repeats 2 --n-perm 50 --n-perm-subclass 20 --n-perm-incr 10
 $PY scripts/06_batch_retention.py --min-cells 100
+$PY scripts/08_technical_confounds.py --repeats 2 --n-perm 5
 $PY - <<'PY'
 import os, pandas as pd
 s = pd.read_csv(os.environ["FMEVAL_RESULTS"] + "/celltype/summary.tsv", sep="\t")

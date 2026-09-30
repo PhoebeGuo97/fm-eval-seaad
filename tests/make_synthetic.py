@@ -33,6 +33,11 @@ obs = pd.DataFrame(obs)
 # donor-level fields must be constant within donor
 for c in ["Age at Death"]:
     obs[c] = obs.groupby("Donor ID")[c].transform("first")
+Xd = np.vstack(rows)
+obs["Genes detected"] = (Xd > 0).sum(1)
+obs["Number of UMIs"] = Xd.sum(1)
+obs["Fraction mitochondrial UMIs"] = rng.uniform(0, 0.05, len(obs))
+obs["Doublet score"] = rng.uniform(0, 0.3, len(obs))
 obs["cell_id"] = [f"c{i}" for i in range(len(obs))]
 obs.index = obs["cell_id"].values
 for c in obs.columns:
