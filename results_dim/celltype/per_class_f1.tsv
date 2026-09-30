@@ -1,0 +1,1041 @@
+label	embedding	probe	cls	f1
+Subclass	pca	logreg	Astrocyte	1.0
+Subclass	pca	logreg	Chandelier	1.0
+Subclass	pca	logreg	Endothelial	0.9989701338825953
+Subclass	pca	logreg	Immune	1.0
+Subclass	pca	logreg	L2/3 IT	0.9900754267566495
+Subclass	pca	logreg	L4 IT	0.9735744089012517
+Subclass	pca	logreg	L5 ET	1.0
+Subclass	pca	logreg	L5 IT	0.9734901335459438
+Subclass	pca	logreg	L5/6 NP	1.0
+Subclass	pca	logreg	L6 CT	0.9962248322147651
+Subclass	pca	logreg	L6 IT	0.9880348813628067
+Subclass	pca	logreg	L6 IT Car3	0.9985763677038845
+Subclass	pca	logreg	L6b	0.9964427704540699
+Subclass	pca	logreg	Lamp5	0.9855884707766213
+Subclass	pca	logreg	Lamp5 Lhx6	1.0
+Subclass	pca	logreg	OPC	0.9998015479261758
+Subclass	pca	logreg	Oligodendrocyte	0.9997984277363435
+Subclass	pca	logreg	Pax6	0.9878425716051926
+Subclass	pca	logreg	Pvalb	0.9907332796132151
+Subclass	pca	logreg	Sncg	0.9699107698692675
+Subclass	pca	logreg	Sst	0.9867310012062727
+Subclass	pca	logreg	Sst Chodl	0.9887640449438202
+Subclass	pca	logreg	VLMC & Perivascular	0.9991031390134529
+Subclass	pca	logreg	Vip	0.9863618130766145
+Subclass	pca	knn	Astrocyte	1.0
+Subclass	pca	knn	Chandelier	0.9997913624035051
+Subclass	pca	knn	Endothelial	0.9986273164035689
+Subclass	pca	knn	Immune	1.0
+Subclass	pca	knn	L2/3 IT	0.9920886075949367
+Subclass	pca	knn	L4 IT	0.9721998388396454
+Subclass	pca	knn	L5 ET	0.9996726677577742
+Subclass	pca	knn	L5 IT	0.9726299087663626
+Subclass	pca	knn	L5/6 NP	1.0
+Subclass	pca	knn	L6 CT	0.9960075646144148
+Subclass	pca	knn	L6 IT	0.9901149889045794
+Subclass	pca	knn	L6 IT Car3	0.9981688708036622
+Subclass	pca	knn	L6b	0.9962421711899792
+Subclass	pca	knn	Lamp5	0.9890065960423746
+Subclass	pca	knn	Lamp5 Lhx6	0.999589995899959
+Subclass	pca	knn	OPC	0.9998015479261758
+Subclass	pca	knn	Oligodendrocyte	0.9997984277363435
+Subclass	pca	knn	Pax6	0.9913722267871816
+Subclass	pca	knn	Pvalb	0.989699050696829
+Subclass	pca	knn	Sncg	0.9777962232828388
+Subclass	pca	knn	Sst	0.9855653568564555
+Subclass	pca	knn	Sst Chodl	0.9881956155143339
+Subclass	pca	knn	VLMC & Perivascular	0.9991031390134529
+Subclass	pca	knn	Vip	0.9889224572004028
+Subclass	pca256	logreg	Astrocyte	1.0
+Subclass	pca256	logreg	Chandelier	0.9997914494264859
+Subclass	pca256	logreg	Endothelial	0.9982835564709921
+Subclass	pca256	logreg	Immune	1.0
+Subclass	pca256	logreg	L2/3 IT	0.9926601864709383
+Subclass	pca256	logreg	L4 IT	0.981341802302501
+Subclass	pca256	logreg	L5 ET	1.0
+Subclass	pca256	logreg	L5 IT	0.9803921568627451
+Subclass	pca256	logreg	L5/6 NP	1.0
+Subclass	pca256	logreg	L6 CT	0.9966485127775451
+Subclass	pca256	logreg	L6 IT	0.991494532199271
+Subclass	pca256	logreg	L6 IT Car3	0.9987809833401057
+Subclass	pca256	logreg	L6b	0.9966485127775451
+Subclass	pca256	logreg	Lamp5	0.9901744535793062
+Subclass	pca256	logreg	Lamp5 Lhx6	0.9997949559155218
+Subclass	pca256	logreg	OPC	1.0
+Subclass	pca256	logreg	Oligodendrocyte	1.0
+Subclass	pca256	logreg	Pax6	0.9909278350515464
+Subclass	pca256	logreg	Pvalb	0.9899315344341523
+Subclass	pca256	logreg	Sncg	0.978247358607831
+Subclass	pca256	logreg	Sst	0.9883346741753821
+Subclass	pca256	logreg	Sst Chodl	0.990990990990991
+Subclass	pca256	logreg	VLMC & Perivascular	0.9988791750728536
+Subclass	pca256	logreg	Vip	0.9905830494890804
+Subclass	pca256	knn	Astrocyte	0.9367088607594937
+Subclass	pca256	knn	Chandelier	0.8211716341212744
+Subclass	pca256	knn	Endothelial	0.9596284387281172
+Subclass	pca256	knn	Immune	0.9805825242718447
+Subclass	pca256	knn	L2/3 IT	0.9776089564174331
+Subclass	pca256	knn	L4 IT	0.9543209876543209
+Subclass	pca256	knn	L5 ET	0.9993451211525868
+Subclass	pca256	knn	L5 IT	0.9522460542290571
+Subclass	pca256	knn	L5/6 NP	0.9969218140775703
+Subclass	pca256	knn	L6 CT	0.9889098137685708
+Subclass	pca256	knn	L6 IT	0.9606114050558495
+Subclass	pca256	knn	L6 IT Car3	0.990569905699057
+Subclass	pca256	knn	L6b	0.9926793557833089
+Subclass	pca256	knn	Lamp5	0.9109677419354839
+Subclass	pca256	knn	Lamp5 Lhx6	0.9816272965879265
+Subclass	pca256	knn	OPC	0.984491440080564
+Subclass	pca256	knn	Oligodendrocyte	0.9979863068868304
+Subclass	pca256	knn	Pax6	0.9813943978736455
+Subclass	pca256	knn	Pvalb	0.974471479856402
+Subclass	pca256	knn	Sncg	0.9593256059009484
+Subclass	pca256	knn	Sst	0.9707386944956006
+Subclass	pca256	knn	Sst Chodl	0.989247311827957
+Subclass	pca256	knn	VLMC & Perivascular	0.8609339117121715
+Subclass	pca256	knn	Vip	0.9564311027725662
+Subclass	gf_v2_104m_cls	logreg	Astrocyte	1.0
+Subclass	gf_v2_104m_cls	logreg	Chandelier	1.0
+Subclass	gf_v2_104m_cls	logreg	Endothelial	0.9993131868131868
+Subclass	gf_v2_104m_cls	logreg	Immune	0.9998016266613767
+Subclass	gf_v2_104m_cls	logreg	L2/3 IT	0.9900714853057982
+Subclass	gf_v2_104m_cls	logreg	L4 IT	0.9807958820035636
+Subclass	gf_v2_104m_cls	logreg	L5 ET	0.9990186457311089
+Subclass	gf_v2_104m_cls	logreg	L5 IT	0.9778487327878667
+Subclass	gf_v2_104m_cls	logreg	L5/6 NP	0.9995908346972177
+Subclass	gf_v2_104m_cls	logreg	L6 CT	0.9953781512605042
+Subclass	gf_v2_104m_cls	logreg	L6 IT	0.9845591223080049
+Subclass	gf_v2_104m_cls	logreg	L6 IT Car3	0.9971509971509972
+Subclass	gf_v2_104m_cls	logreg	L6b	0.9962374581939799
+Subclass	gf_v2_104m_cls	logreg	Lamp5	0.9923694779116465
+Subclass	gf_v2_104m_cls	logreg	Lamp5 Lhx6	1.0
+Subclass	gf_v2_104m_cls	logreg	OPC	0.9998016266613767
+Subclass	gf_v2_104m_cls	logreg	Oligodendrocyte	1.0
+Subclass	gf_v2_104m_cls	logreg	Pax6	0.9913509060955519
+Subclass	gf_v2_104m_cls	logreg	Pvalb	0.9903420523138833
+Subclass	gf_v2_104m_cls	logreg	Sncg	0.9836201534314741
+Subclass	gf_v2_104m_cls	logreg	Sst	0.9867042707493956
+Subclass	gf_v2_104m_cls	logreg	Sst Chodl	0.9887766554433222
+Subclass	gf_v2_104m_cls	logreg	VLMC & Perivascular	0.9993278064082456
+Subclass	gf_v2_104m_cls	logreg	Vip	0.9917917917917918
+Subclass	gf_v2_104m_cls	knn	Astrocyte	1.0
+Subclass	gf_v2_104m_cls	knn	Chandelier	1.0
+Subclass	gf_v2_104m_cls	knn	Endothelial	0.9986273164035689
+Subclass	gf_v2_104m_cls	knn	Immune	1.0
+Subclass	gf_v2_104m_cls	knn	L2/3 IT	0.9850216791486007
+Subclass	gf_v2_104m_cls	knn	L4 IT	0.9584166333466614
+Subclass	gf_v2_104m_cls	knn	L5 ET	0.9967256057629339
+Subclass	gf_v2_104m_cls	knn	L5 IT	0.9560221870047544
+Subclass	gf_v2_104m_cls	knn	L5/6 NP	0.9991820040899796
+Subclass	gf_v2_104m_cls	knn	L6 CT	0.9917773561037319
+Subclass	gf_v2_104m_cls	knn	L6 IT	0.9794590197274761
+Subclass	gf_v2_104m_cls	knn	L6 IT Car3	0.9957151601713936
+Subclass	gf_v2_104m_cls	knn	L6b	0.99375
+Subclass	gf_v2_104m_cls	knn	Lamp5	0.9917852133840913
+Subclass	gf_v2_104m_cls	knn	Lamp5 Lhx6	0.9997950399672064
+Subclass	gf_v2_104m_cls	knn	OPC	0.9998016266613767
+Subclass	gf_v2_104m_cls	knn	Oligodendrocyte	1.0
+Subclass	gf_v2_104m_cls	knn	Pax6	0.9881293491608678
+Subclass	gf_v2_104m_cls	knn	Pvalb	0.9889090542448075
+Subclass	gf_v2_104m_cls	knn	Sncg	0.9795158286778398
+Subclass	gf_v2_104m_cls	knn	Sst	0.9820165690038392
+Subclass	gf_v2_104m_cls	knn	Sst Chodl	0.9772853185595568
+Subclass	gf_v2_104m_cls	knn	VLMC & Perivascular	0.9991031390134529
+Subclass	gf_v2_104m_cls	knn	Vip	0.9874544718737354
+Subclass	gf_v2_104m_cls_pca50	logreg	Astrocyte	1.0
+Subclass	gf_v2_104m_cls_pca50	logreg	Chandelier	1.0
+Subclass	gf_v2_104m_cls_pca50	logreg	Endothelial	0.9989701338825953
+Subclass	gf_v2_104m_cls_pca50	logreg	Immune	1.0
+Subclass	gf_v2_104m_cls_pca50	logreg	L2/3 IT	0.9798924945251841
+Subclass	gf_v2_104m_cls_pca50	logreg	L4 IT	0.9577242196760174
+Subclass	gf_v2_104m_cls_pca50	logreg	L5 ET	0.9990192873488069
+Subclass	gf_v2_104m_cls_pca50	logreg	L5 IT	0.956989247311828
+Subclass	gf_v2_104m_cls_pca50	logreg	L5/6 NP	0.9993861264579497
+Subclass	gf_v2_104m_cls_pca50	logreg	L6 CT	0.9955910140667646
+Subclass	gf_v2_104m_cls_pca50	logreg	L6 IT	0.9800974817221771
+Subclass	gf_v2_104m_cls_pca50	logreg	L6 IT Car3	0.9969443878590344
+Subclass	gf_v2_104m_cls_pca50	logreg	L6b	0.9964442585233215
+Subclass	gf_v2_104m_cls_pca50	logreg	Lamp5	0.9923664122137404
+Subclass	gf_v2_104m_cls_pca50	logreg	Lamp5 Lhx6	0.9997949559155218
+Subclass	gf_v2_104m_cls_pca50	logreg	OPC	0.999603017070266
+Subclass	gf_v2_104m_cls_pca50	logreg	Oligodendrocyte	0.9997984277363435
+Subclass	gf_v2_104m_cls_pca50	logreg	Pax6	0.9897288414133114
+Subclass	gf_v2_104m_cls_pca50	logreg	Pvalb	0.9905337361530715
+Subclass	gf_v2_104m_cls_pca50	logreg	Sncg	0.978247358607831
+Subclass	gf_v2_104m_cls_pca50	logreg	Sst	0.9867363344051447
+Subclass	gf_v2_104m_cls_pca50	logreg	Sst Chodl	0.9887133182844243
+Subclass	gf_v2_104m_cls_pca50	logreg	VLMC & Perivascular	0.9991035410129987
+Subclass	gf_v2_104m_cls_pca50	logreg	Vip	0.9881549889580405
+Subclass	gf_v2_104m_cls_pca50	knn	Astrocyte	0.9998015479261758
+Subclass	gf_v2_104m_cls_pca50	knn	Chandelier	0.9995828118481435
+Subclass	gf_v2_104m_cls_pca50	knn	Endothelial	0.9979423868312757
+Subclass	gf_v2_104m_cls_pca50	knn	Immune	0.9998016266613767
+Subclass	gf_v2_104m_cls_pca50	knn	L2/3 IT	0.9830575256107171
+Subclass	gf_v2_104m_cls_pca50	knn	L4 IT	0.9571657325860689
+Subclass	gf_v2_104m_cls_pca50	knn	L5 ET	0.9977131656321464
+Subclass	gf_v2_104m_cls_pca50	knn	L5 IT	0.9525887720690339
+Subclass	gf_v2_104m_cls_pca50	knn	L5/6 NP	0.9985687998364343
+Subclass	gf_v2_104m_cls_pca50	knn	L6 CT	0.9926144756277696
+Subclass	gf_v2_104m_cls_pca50	knn	L6 IT	0.9798657718120806
+Subclass	gf_v2_104m_cls_pca50	knn	L6 IT Car3	0.9951100244498777
+Subclass	gf_v2_104m_cls_pca50	knn	L6b	0.9939595917517184
+Subclass	gf_v2_104m_cls_pca50	knn	Lamp5	0.9899839743589743
+Subclass	gf_v2_104m_cls_pca50	knn	Lamp5 Lhx6	0.9995901639344262
+Subclass	gf_v2_104m_cls_pca50	knn	OPC	0.9996033320111067
+Subclass	gf_v2_104m_cls_pca50	knn	Oligodendrocyte	1.0
+Subclass	gf_v2_104m_cls_pca50	knn	Pax6	0.9869120654396728
+Subclass	gf_v2_104m_cls_pca50	knn	Pvalb	0.9891260571888845
+Subclass	gf_v2_104m_cls_pca50	knn	Sncg	0.974709784411277
+Subclass	gf_v2_104m_cls_pca50	knn	Sst	0.9836528758829465
+Subclass	gf_v2_104m_cls_pca50	knn	Sst Chodl	0.9792717086834734
+Subclass	gf_v2_104m_cls_pca50	knn	VLMC & Perivascular	0.9984301412872841
+Subclass	gf_v2_104m_cls_pca50	knn	Vip	0.9868660335421298
+Supertype	pca	logreg	Astro_1	0.4175084175084175
+Supertype	pca	logreg	Astro_2	0.9152119700748129
+Supertype	pca	logreg	Astro_3	0.9295154185022027
+Supertype	pca	logreg	Astro_5	0.6768060836501901
+Supertype	pca	logreg	Astro_6-SEAAD	0.4375
+Supertype	pca	logreg	Chandelier_1	0.9424356378362743
+Supertype	pca	logreg	Chandelier_2	0.8517964071856288
+Supertype	pca	logreg	Endo_1	0.6755555555555556
+Supertype	pca	logreg	Endo_2	0.9238427078148332
+Supertype	pca	logreg	Endo_3	0.8740740740740741
+Supertype	pca	logreg	L2/3 IT_1	0.925700365408039
+Supertype	pca	logreg	L2/3 IT_10	0.6844106463878327
+Supertype	pca	logreg	L2/3 IT_13	0.8161209068010076
+Supertype	pca	logreg	L2/3 IT_5	0.8741418764302059
+Supertype	pca	logreg	L2/3 IT_6	0.8036253776435045
+Supertype	pca	logreg	L4 IT_1	0.8961303462321792
+Supertype	pca	logreg	L4 IT_2	0.9945235487404163
+Supertype	pca	logreg	L4 IT_4	0.9768707482993197
+Supertype	pca	logreg	L5 ET_1	0.9731182795698925
+Supertype	pca	logreg	L5 ET_2	0.9840123775141826
+Supertype	pca	logreg	L5 IT_1	0.9363957597173145
+Supertype	pca	logreg	L5 IT_2	0.9268527430221367
+Supertype	pca	logreg	L5 IT_3	0.9111111111111111
+Supertype	pca	logreg	L5 IT_5	0.8277777777777777
+Supertype	pca	logreg	L5 IT_6	0.7230320699708455
+Supertype	pca	logreg	L5 IT_7	0.8021201413427562
+Supertype	pca	logreg	L5/6 NP_1	0.9496805111821086
+Supertype	pca	logreg	L5/6 NP_2	0.9344375431331953
+Supertype	pca	logreg	L5/6 NP_4	0.8175519630484989
+Supertype	pca	logreg	L5/6 NP_6	0.7714285714285715
+Supertype	pca	logreg	L6 CT_1	0.8888888888888888
+Supertype	pca	logreg	L6 CT_2	0.9117755629383536
+Supertype	pca	logreg	L6 CT_3	0.6814159292035398
+Supertype	pca	logreg	L6 IT Car3_1	0.942578548212351
+Supertype	pca	logreg	L6 IT Car3_2	0.9329501915708812
+Supertype	pca	logreg	L6 IT Car3_3	0.9934414911977908
+Supertype	pca	logreg	L6 IT_1	0.88
+Supertype	pca	logreg	L6 IT_2	0.9747815230961299
+Supertype	pca	logreg	L6b_1	0.9368258859784283
+Supertype	pca	logreg	L6b_2	0.9473684210526315
+Supertype	pca	logreg	L6b_4	0.8959778085991679
+Supertype	pca	logreg	L6b_5	0.7341772151898734
+Supertype	pca	logreg	L6b_6	0.9807383627608347
+Supertype	pca	logreg	Lamp5_1	0.7017543859649122
+Supertype	pca	logreg	Lamp5_2	0.9042904290429042
+Supertype	pca	logreg	Lamp5_3	0.7195301027900147
+Supertype	pca	logreg	Lamp5_5	0.9141004862236629
+Supertype	pca	logreg	Lamp5_6	0.45555555555555555
+Supertype	pca	logreg	Lamp5_Lhx6_1	1.0
+Supertype	pca	logreg	Micro-PVM_1	0.7096774193548387
+Supertype	pca	logreg	Micro-PVM_2	0.7964309319233311
+Supertype	pca	logreg	Micro-PVM_2_3-SEAAD	0.5483568075117371
+Supertype	pca	logreg	Micro-PVM_3-SEAAD	0.43018867924528303
+Supertype	pca	logreg	OPC_2	0.8599299649824912
+Supertype	pca	logreg	OPC_2_1-SEAAD	0.3890577507598784
+Supertype	pca	logreg	OPC_2_2-SEAAD	0.48717948717948717
+Supertype	pca	logreg	Oligo_1	0.5806451612903226
+Supertype	pca	logreg	Oligo_2	0.7652509652509653
+Supertype	pca	logreg	Oligo_2_1-SEAAD	0.24188790560471976
+Supertype	pca	logreg	Oligo_4	0.8015564202334631
+Supertype	pca	logreg	Pax6_1	0.9804424495030458
+Supertype	pca	logreg	Pax6_2	0.9212121212121213
+Supertype	pca	logreg	Pax6_3	0.853185595567867
+Supertype	pca	logreg	Pax6_4	0.8942307692307693
+Supertype	pca	logreg	Pericyte_1	0.9583931133428981
+Supertype	pca	logreg	Pericyte_2-SEAAD	0.6226415094339622
+Supertype	pca	logreg	Pvalb_1	0.7716535433070866
+Supertype	pca	logreg	Pvalb_14	0.6210526315789474
+Supertype	pca	logreg	Pvalb_15	0.8915906788247214
+Supertype	pca	logreg	Pvalb_2	0.7231270358306189
+Supertype	pca	logreg	Pvalb_3	0.5377049180327869
+Supertype	pca	logreg	Pvalb_5	0.6065573770491803
+Supertype	pca	logreg	Pvalb_6	0.6754385964912281
+Supertype	pca	logreg	Pvalb_9	0.8901098901098901
+Supertype	pca	logreg	Sncg_1	0.7391304347826086
+Supertype	pca	logreg	Sncg_2	0.5284974093264249
+Supertype	pca	logreg	Sncg_4	0.9106551952349438
+Supertype	pca	logreg	Sncg_5	0.7589928057553957
+Supertype	pca	logreg	Sncg_6	0.9056603773584906
+Supertype	pca	logreg	Sncg_8	0.8453815261044176
+Supertype	pca	logreg	Sst Chodl_1	0.9749430523917996
+Supertype	pca	logreg	Sst Chodl_2	0.9636576787807737
+Supertype	pca	logreg	Sst_10	0.7783783783783784
+Supertype	pca	logreg	Sst_13	0.7666098807495741
+Supertype	pca	logreg	Sst_19	0.860248447204969
+Supertype	pca	logreg	Sst_2	0.6183574879227053
+Supertype	pca	logreg	Sst_23	0.6752136752136753
+Supertype	pca	logreg	Sst_25	0.7228915662650602
+Supertype	pca	logreg	Sst_3	0.8632138114209827
+Supertype	pca	logreg	Sst_4	0.782051282051282
+Supertype	pca	logreg	Sst_5	0.7877358490566038
+Supertype	pca	logreg	Sst_7	0.8502024291497976
+Supertype	pca	logreg	Sst_9	0.8102189781021898
+Supertype	pca	logreg	VLMC_1	0.9915127309036446
+Supertype	pca	logreg	Vip_1	0.81419624217119
+Supertype	pca	logreg	Vip_11	0.7580645161290323
+Supertype	pca	logreg	Vip_12	0.769811320754717
+Supertype	pca	logreg	Vip_13	0.6956521739130435
+Supertype	pca	logreg	Vip_15	0.847682119205298
+Supertype	pca	logreg	Vip_19	0.8376068376068376
+Supertype	pca	logreg	Vip_2	0.751937984496124
+Supertype	pca	logreg	Vip_23	0.9178082191780822
+Supertype	pca	logreg	Vip_4	0.8936708860759494
+Supertype	pca	logreg	Vip_5	0.8093385214007782
+Supertype	pca	logreg	Vip_6	0.7230769230769231
+Supertype	pca	logreg	Vip_9	0.8636363636363636
+Supertype	pca	knn	Astro_1	0.35185185185185186
+Supertype	pca	knn	Astro_2	0.9040760036775973
+Supertype	pca	knn	Astro_3	0.9181721572794899
+Supertype	pca	knn	Astro_5	0.18518518518518517
+Supertype	pca	knn	Astro_6-SEAAD	0.4918032786885246
+Supertype	pca	knn	Chandelier_1	0.9273395532937517
+Supertype	pca	knn	Chandelier_2	0.7955449482895783
+Supertype	pca	knn	Endo_1	0.3116883116883117
+Supertype	pca	knn	Endo_2	0.9077069457659372
+Supertype	pca	knn	Endo_3	0.8623853211009175
+Supertype	pca	knn	L2/3 IT_1	0.9178743961352657
+Supertype	pca	knn	L2/3 IT_10	0.6956521739130435
+Supertype	pca	knn	L2/3 IT_13	0.7545219638242894
+Supertype	pca	knn	L2/3 IT_5	0.8564814814814815
+Supertype	pca	knn	L2/3 IT_6	0.7826982492276005
+Supertype	pca	knn	L4 IT_1	0.8189655172413793
+Supertype	pca	knn	L4 IT_2	0.99399235390497
+Supertype	pca	knn	L4 IT_4	0.9740082079343365
+Supertype	pca	knn	L5 ET_1	0.9712230215827338
+Supertype	pca	knn	L5 ET_2	0.9835390946502057
+Supertype	pca	knn	L5 IT_1	0.9333333333333333
+Supertype	pca	knn	L5 IT_2	0.8974964572508266
+Supertype	pca	knn	L5 IT_3	0.8656716417910447
+Supertype	pca	knn	L5 IT_5	0.795774647887324
+Supertype	pca	knn	L5 IT_6	0.6608695652173913
+Supertype	pca	knn	L5 IT_7	0.7381443298969073
+Supertype	pca	knn	L5/6 NP_1	0.9319781078967944
+Supertype	pca	knn	L5/6 NP_2	0.9225496915695682
+Supertype	pca	knn	L5/6 NP_4	0.7644230769230769
+Supertype	pca	knn	L5/6 NP_6	0.6638297872340425
+Supertype	pca	knn	L6 CT_1	0.8639904134212103
+Supertype	pca	knn	L6 CT_2	0.8905109489051095
+Supertype	pca	knn	L6 CT_3	0.5
+Supertype	pca	knn	L6 IT Car3_1	0.9424307036247335
+Supertype	pca	knn	L6 IT Car3_2	0.924901185770751
+Supertype	pca	knn	L6 IT Car3_3	0.9883241758241759
+Supertype	pca	knn	L6 IT_1	0.8632075471698113
+Supertype	pca	knn	L6 IT_2	0.9659595461272817
+Supertype	pca	knn	L6b_1	0.9270516717325228
+Supertype	pca	knn	L6b_2	0.9209302325581395
+Supertype	pca	knn	L6b_4	0.8594594594594595
+Supertype	pca	knn	L6b_5	0.4943820224719101
+Supertype	pca	knn	L6b_6	0.9692614770459081
+Supertype	pca	knn	Lamp5_1	0.5454545454545454
+Supertype	pca	knn	Lamp5_2	0.8888200681325488
+Supertype	pca	knn	Lamp5_3	0.572463768115942
+Supertype	pca	knn	Lamp5_5	0.8772455089820359
+Supertype	pca	knn	Lamp5_6	0.32167832167832167
+Supertype	pca	knn	Lamp5_Lhx6_1	0.9997920565606155
+Supertype	pca	knn	Micro-PVM_1	0.6985645933014354
+Supertype	pca	knn	Micro-PVM_2	0.7877059569074778
+Supertype	pca	knn	Micro-PVM_2_3-SEAAD	0.4847890088321884
+Supertype	pca	knn	Micro-PVM_3-SEAAD	0.3392070484581498
+Supertype	pca	knn	OPC_2	0.8659112370160529
+Supertype	pca	knn	OPC_2_1-SEAAD	0.12526096033402923
+Supertype	pca	knn	OPC_2_2-SEAAD	0.4031620553359684
+Supertype	pca	knn	Oligo_1	0.2980392156862745
+Supertype	pca	knn	Oligo_2	0.7585972080354103
+Supertype	pca	knn	Oligo_2_1-SEAAD	0.007874015748031496
+Supertype	pca	knn	Oligo_4	0.7435530085959885
+Supertype	pca	knn	Pax6_1	0.9761980323706759
+Supertype	pca	knn	Pax6_2	0.8962655601659751
+Supertype	pca	knn	Pax6_3	0.84375
+Supertype	pca	knn	Pax6_4	0.8888888888888888
+Supertype	pca	knn	Pericyte_1	0.9645054424988169
+Supertype	pca	knn	Pericyte_2-SEAAD	0.6483516483516484
+Supertype	pca	knn	Pvalb_1	0.5981308411214953
+Supertype	pca	knn	Pvalb_14	0.5269461077844312
+Supertype	pca	knn	Pvalb_15	0.8443170964660937
+Supertype	pca	knn	Pvalb_2	0.6634522661523626
+Supertype	pca	knn	Pvalb_3	0.27184466019417475
+Supertype	pca	knn	Pvalb_5	0.5363636363636364
+Supertype	pca	knn	Pvalb_6	0.4942528735632184
+Supertype	pca	knn	Pvalb_9	0.8777777777777778
+Supertype	pca	knn	Sncg_1	0.7375886524822695
+Supertype	pca	knn	Sncg_2	0.5257142857142857
+Supertype	pca	knn	Sncg_4	0.9026888604353394
+Supertype	pca	knn	Sncg_5	0.6854838709677419
+Supertype	pca	knn	Sncg_6	0.8849557522123894
+Supertype	pca	knn	Sncg_8	0.8380952380952381
+Supertype	pca	knn	Sst Chodl_1	0.9774266365688488
+Supertype	pca	knn	Sst Chodl_2	0.9693396226415094
+Supertype	pca	knn	Sst_10	0.7267605633802817
+Supertype	pca	knn	Sst_13	0.7172859450726979
+Supertype	pca	knn	Sst_19	0.833578792341679
+Supertype	pca	knn	Sst_2	0.6124401913875598
+Supertype	pca	knn	Sst_23	0.6283185840707964
+Supertype	pca	knn	Sst_25	0.6721311475409836
+Supertype	pca	knn	Sst_3	0.8463611859838275
+Supertype	pca	knn	Sst_4	0.6027397260273972
+Supertype	pca	knn	Sst_5	0.6926406926406926
+Supertype	pca	knn	Sst_7	0.776255707762557
+Supertype	pca	knn	Sst_9	0.782608695652174
+Supertype	pca	knn	VLMC_1	0.992548435171386
+Supertype	pca	knn	Vip_1	0.7795275590551181
+Supertype	pca	knn	Vip_11	0.6852886405959032
+Supertype	pca	knn	Vip_12	0.6228070175438597
+Supertype	pca	knn	Vip_13	0.549520766773163
+Supertype	pca	knn	Vip_15	0.8581314878892734
+Supertype	pca	knn	Vip_19	0.7877094972067039
+Supertype	pca	knn	Vip_2	0.5779816513761468
+Supertype	pca	knn	Vip_23	0.8814317673378076
+Supertype	pca	knn	Vip_4	0.8721227621483376
+Supertype	pca	knn	Vip_5	0.7984496124031008
+Supertype	pca	knn	Vip_6	0.7003891050583657
+Supertype	pca	knn	Vip_9	0.8501228501228502
+Supertype	pca256	logreg	Astro_1	0.49853372434017595
+Supertype	pca256	logreg	Astro_2	0.9101412066752247
+Supertype	pca256	logreg	Astro_3	0.9345172031076582
+Supertype	pca256	logreg	Astro_5	0.8086642599277978
+Supertype	pca256	logreg	Astro_6-SEAAD	0.4107744107744108
+Supertype	pca256	logreg	Chandelier_1	0.9620327102803738
+Supertype	pca256	logreg	Chandelier_2	0.9049707602339181
+Supertype	pca256	logreg	Endo_1	0.7763713080168776
+Supertype	pca256	logreg	Endo_2	0.9316025961058413
+Supertype	pca256	logreg	Endo_3	0.8699551569506726
+Supertype	pca256	logreg	L2/3 IT_1	0.9225152129817444
+Supertype	pca256	logreg	L2/3 IT_10	0.5770750988142292
+Supertype	pca256	logreg	L2/3 IT_13	0.7888040712468194
+Supertype	pca256	logreg	L2/3 IT_5	0.8461538461538461
+Supertype	pca256	logreg	L2/3 IT_6	0.784
+Supertype	pca256	logreg	L4 IT_1	0.9349593495934959
+Supertype	pca256	logreg	L4 IT_2	0.9961664841182913
+Supertype	pca256	logreg	L4 IT_4	0.9766803840877915
+Supertype	pca256	logreg	L5 ET_1	0.9749552772808586
+Supertype	pca256	logreg	L5 ET_2	0.9855521155830753
+Supertype	pca256	logreg	L5 IT_1	0.9288256227758007
+Supertype	pca256	logreg	L5 IT_2	0.9339122045344911
+Supertype	pca256	logreg	L5 IT_3	0.8937728937728938
+Supertype	pca256	logreg	L5 IT_5	0.8089053803339518
+Supertype	pca256	logreg	L5 IT_6	0.717201166180758
+Supertype	pca256	logreg	L5 IT_7	0.8069565217391305
+Supertype	pca256	logreg	L5/6 NP_1	0.9594916600476568
+Supertype	pca256	logreg	L5/6 NP_2	0.9347222222222222
+Supertype	pca256	logreg	L5/6 NP_4	0.8687782805429864
+Supertype	pca256	logreg	L5/6 NP_6	0.8045112781954887
+Supertype	pca256	logreg	L6 CT_1	0.8902439024390244
+Supertype	pca256	logreg	L6 CT_2	0.920926811327694
+Supertype	pca256	logreg	L6 CT_3	0.8245614035087719
+Supertype	pca256	logreg	L6 IT Car3_1	0.9264069264069265
+Supertype	pca256	logreg	L6 IT Car3_2	0.9245647969052224
+Supertype	pca256	logreg	L6 IT Car3_3	0.9955249569707401
+Supertype	pca256	logreg	L6 IT_1	0.8901345291479821
+Supertype	pca256	logreg	L6 IT_2	0.9759398496240601
+Supertype	pca256	logreg	L6b_1	0.9460708782742681
+Supertype	pca256	logreg	L6b_2	0.9421221864951769
+Supertype	pca256	logreg	L6b_4	0.8934993084370678
+Supertype	pca256	logreg	L6b_5	0.7603305785123967
+Supertype	pca256	logreg	L6b_6	0.9806918744971842
+Supertype	pca256	logreg	Lamp5_1	0.7507163323782235
+Supertype	pca256	logreg	Lamp5_2	0.9247817327065144
+Supertype	pca256	logreg	Lamp5_3	0.7983651226158038
+Supertype	pca256	logreg	Lamp5_5	0.9033280507131537
+Supertype	pca256	logreg	Lamp5_6	0.4067796610169492
+Supertype	pca256	logreg	Lamp5_Lhx6_1	0.9991680532445923
+Supertype	pca256	logreg	Micro-PVM_1	0.7383177570093458
+Supertype	pca256	logreg	Micro-PVM_2	0.7924786324786325
+Supertype	pca256	logreg	Micro-PVM_2_3-SEAAD	0.5356489945155393
+Supertype	pca256	logreg	Micro-PVM_3-SEAAD	0.4727272727272727
+Supertype	pca256	logreg	OPC_2	0.852475752935171
+Supertype	pca256	logreg	OPC_2_1-SEAAD	0.4103967168262654
+Supertype	pca256	logreg	OPC_2_2-SEAAD	0.5046728971962616
+Supertype	pca256	logreg	Oligo_1	0.7531806615776081
+Supertype	pca256	logreg	Oligo_2	0.7916833266693323
+Supertype	pca256	logreg	Oligo_2_1-SEAAD	0.28287841191067
+Supertype	pca256	logreg	Oligo_4	0.8318240620957309
+Supertype	pca256	logreg	Pax6_1	0.9826030927835051
+Supertype	pca256	logreg	Pax6_2	0.9388560157790927
+Supertype	pca256	logreg	Pax6_3	0.888283378746594
+Supertype	pca256	logreg	Pax6_4	0.9133089133089133
+Supertype	pca256	logreg	Pericyte_1	0.9624277456647399
+Supertype	pca256	logreg	Pericyte_2-SEAAD	0.74235807860262
+Supertype	pca256	logreg	Pvalb_1	0.8389513108614233
+Supertype	pca256	logreg	Pvalb_14	0.6865671641791045
+Supertype	pca256	logreg	Pvalb_15	0.9011776753712237
+Supertype	pca256	logreg	Pvalb_2	0.7475622968580715
+Supertype	pca256	logreg	Pvalb_3	0.6666666666666666
+Supertype	pca256	logreg	Pvalb_5	0.6798418972332015
+Supertype	pca256	logreg	Pvalb_6	0.6
+Supertype	pca256	logreg	Pvalb_9	0.9606741573033708
+Supertype	pca256	logreg	Sncg_1	0.7873799725651578
+Supertype	pca256	logreg	Sncg_2	0.6896551724137931
+Supertype	pca256	logreg	Sncg_4	0.9168900804289544
+Supertype	pca256	logreg	Sncg_5	0.7965811965811965
+Supertype	pca256	logreg	Sncg_6	0.8998548621190131
+Supertype	pca256	logreg	Sncg_8	0.8843398157625384
+Supertype	pca256	logreg	Sst Chodl_1	0.9671574178935447
+Supertype	pca256	logreg	Sst Chodl_2	0.9549763033175356
+Supertype	pca256	logreg	Sst_10	0.8142076502732241
+Supertype	pca256	logreg	Sst_13	0.7881944444444444
+Supertype	pca256	logreg	Sst_19	0.9188361408882083
+Supertype	pca256	logreg	Sst_2	0.6602870813397129
+Supertype	pca256	logreg	Sst_23	0.7685589519650655
+Supertype	pca256	logreg	Sst_25	0.7661290322580645
+Supertype	pca256	logreg	Sst_3	0.8677248677248677
+Supertype	pca256	logreg	Sst_4	0.8765432098765432
+Supertype	pca256	logreg	Sst_5	0.8674698795180723
+Supertype	pca256	logreg	Sst_7	0.8816326530612245
+Supertype	pca256	logreg	Sst_9	0.7955390334572491
+Supertype	pca256	logreg	VLMC_1	0.99000999000999
+Supertype	pca256	logreg	Vip_1	0.8381742738589212
+Supertype	pca256	logreg	Vip_11	0.768
+Supertype	pca256	logreg	Vip_12	0.7196969696969697
+Supertype	pca256	logreg	Vip_13	0.7554179566563467
+Supertype	pca256	logreg	Vip_15	0.8918918918918919
+Supertype	pca256	logreg	Vip_19	0.88
+Supertype	pca256	logreg	Vip_2	0.8047808764940239
+Supertype	pca256	logreg	Vip_23	0.9461883408071748
+Supertype	pca256	logreg	Vip_4	0.8992443324937027
+Supertype	pca256	logreg	Vip_5	0.8740157480314961
+Supertype	pca256	logreg	Vip_6	0.7954545454545454
+Supertype	pca256	logreg	Vip_9	0.8556701030927835
+Supertype	pca256	knn	Astro_1	0.057971014492753624
+Supertype	pca256	knn	Astro_2	0.8566997518610422
+Supertype	pca256	knn	Astro_3	0.8062418725617685
+Supertype	pca256	knn	Astro_5	0.5533980582524272
+Supertype	pca256	knn	Astro_6-SEAAD	0.30526315789473685
+Supertype	pca256	knn	Chandelier_1	0.7075873827791986
+Supertype	pca256	knn	Chandelier_2	0.8656273199703044
+Supertype	pca256	knn	Endo_1	0.649746192893401
+Supertype	pca256	knn	Endo_2	0.8689722357525572
+Supertype	pca256	knn	Endo_3	0.7329650092081031
+Supertype	pca256	knn	L2/3 IT_1	0.9108511496571198
+Supertype	pca256	knn	L2/3 IT_10	0.5
+Supertype	pca256	knn	L2/3 IT_13	0.7338129496402878
+Supertype	pca256	knn	L2/3 IT_5	0.7783251231527094
+Supertype	pca256	knn	L2/3 IT_6	0.760593220338983
+Supertype	pca256	knn	L4 IT_1	0.8513513513513513
+Supertype	pca256	knn	L4 IT_2	0.9783264746227709
+Supertype	pca256	knn	L4 IT_4	0.875
+Supertype	pca256	knn	L5 ET_1	0.9726775956284153
+Supertype	pca256	knn	L5 ET_2	0.9851662404092072
+Supertype	pca256	knn	L5 IT_1	0.8854961832061069
+Supertype	pca256	knn	L5 IT_2	0.8911723493694536
+Supertype	pca256	knn	L5 IT_3	0.8244274809160306
+Supertype	pca256	knn	L5 IT_5	0.7702089009990918
+Supertype	pca256	knn	L5 IT_6	0.6230529595015576
+Supertype	pca256	knn	L5 IT_7	0.6111111111111112
+Supertype	pca256	knn	L5/6 NP_1	0.9451243584682195
+Supertype	pca256	knn	L5/6 NP_2	0.9114266396213658
+Supertype	pca256	knn	L5/6 NP_4	0.8269230769230769
+Supertype	pca256	knn	L5/6 NP_6	0.6666666666666666
+Supertype	pca256	knn	L6 CT_1	0.8402860548271752
+Supertype	pca256	knn	L6 CT_2	0.8709560159941839
+Supertype	pca256	knn	L6 CT_3	0.5172413793103449
+Supertype	pca256	knn	L6 IT Car3_1	0.9111617312072893
+Supertype	pca256	knn	L6 IT Car3_2	0.8926108374384236
+Supertype	pca256	knn	L6 IT Car3_3	0.9655172413793104
+Supertype	pca256	knn	L6 IT_1	0.7671232876712328
+Supertype	pca256	knn	L6 IT_2	0.9100480659189746
+Supertype	pca256	knn	L6b_1	0.9368258859784283
+Supertype	pca256	knn	L6b_2	0.9389067524115756
+Supertype	pca256	knn	L6b_4	0.8702490170380078
+Supertype	pca256	knn	L6b_5	0.5287356321839081
+Supertype	pca256	knn	L6b_6	0.9788254095085897
+Supertype	pca256	knn	Lamp5_1	0.3445378151260504
+Supertype	pca256	knn	Lamp5_2	0.7780160857908848
+Supertype	pca256	knn	Lamp5_3	0.5771324863883848
+Supertype	pca256	knn	Lamp5_5	0.8433048433048433
+Supertype	pca256	knn	Lamp5_6	0.06956521739130435
+Supertype	pca256	knn	Lamp5_Lhx6_1	0.9740154283394235
+Supertype	pca256	knn	Micro-PVM_1	0.7772020725388601
+Supertype	pca256	knn	Micro-PVM_2	0.7721774193548387
+Supertype	pca256	knn	Micro-PVM_2_3-SEAAD	0.5447545717035611
+Supertype	pca256	knn	Micro-PVM_3-SEAAD	0.40444444444444444
+Supertype	pca256	knn	OPC_2	0.8444658789486376
+Supertype	pca256	knn	OPC_2_1-SEAAD	0.13580246913580246
+Supertype	pca256	knn	OPC_2_2-SEAAD	0.29464285714285715
+Supertype	pca256	knn	Oligo_1	0.5656565656565656
+Supertype	pca256	knn	Oligo_2	0.7563636363636363
+Supertype	pca256	knn	Oligo_2_1-SEAAD	0.007874015748031496
+Supertype	pca256	knn	Oligo_4	0.6814229249011857
+Supertype	pca256	knn	Pax6_1	0.9615745079662605
+Supertype	pca256	knn	Pax6_2	0.937625754527163
+Supertype	pca256	knn	Pax6_3	0.8578811369509044
+Supertype	pca256	knn	Pax6_4	0.8593548387096774
+Supertype	pca256	knn	Pericyte_1	0.9445525291828794
+Supertype	pca256	knn	Pericyte_2-SEAAD	0.6519337016574586
+Supertype	pca256	knn	Pvalb_1	0.6291079812206573
+Supertype	pca256	knn	Pvalb_14	0.15384615384615385
+Supertype	pca256	knn	Pvalb_15	0.8484560570071259
+Supertype	pca256	knn	Pvalb_2	0.6169491525423729
+Supertype	pca256	knn	Pvalb_3	0.19689119170984457
+Supertype	pca256	knn	Pvalb_5	0.40425531914893614
+Supertype	pca256	knn	Pvalb_6	0.36046511627906974
+Supertype	pca256	knn	Pvalb_9	0.913946587537092
+Supertype	pca256	knn	Sncg_1	0.7053140096618358
+Supertype	pca256	knn	Sncg_2	0.4430379746835443
+Supertype	pca256	knn	Sncg_4	0.8623340321453529
+Supertype	pca256	knn	Sncg_5	0.7065637065637066
+Supertype	pca256	knn	Sncg_6	0.82574568288854
+Supertype	pca256	knn	Sncg_8	0.8260869565217391
+Supertype	pca256	knn	Sst Chodl_1	0.9738933030646992
+Supertype	pca256	knn	Sst Chodl_2	0.9621749408983451
+Supertype	pca256	knn	Sst_10	0.7378048780487805
+Supertype	pca256	knn	Sst_13	0.7713414634146342
+Supertype	pca256	knn	Sst_19	0.9256965944272446
+Supertype	pca256	knn	Sst_2	0.5028571428571429
+Supertype	pca256	knn	Sst_23	0.6607929515418502
+Supertype	pca256	knn	Sst_25	0.6009389671361502
+Supertype	pca256	knn	Sst_3	0.8738379814077025
+Supertype	pca256	knn	Sst_4	0.8623853211009175
+Supertype	pca256	knn	Sst_5	0.8243559718969555
+Supertype	pca256	knn	Sst_7	0.7592592592592593
+Supertype	pca256	knn	Sst_9	0.6481481481481481
+Supertype	pca256	knn	VLMC_1	0.6857887874837028
+Supertype	pca256	knn	Vip_1	0.7873684210526316
+Supertype	pca256	knn	Vip_11	0.7421150278293135
+Supertype	pca256	knn	Vip_12	0.5728155339805825
+Supertype	pca256	knn	Vip_13	0.6548042704626335
+Supertype	pca256	knn	Vip_15	0.8712121212121212
+Supertype	pca256	knn	Vip_19	0.8363636363636363
+Supertype	pca256	knn	Vip_2	0.6231155778894473
+Supertype	pca256	knn	Vip_23	0.8914027149321267
+Supertype	pca256	knn	Vip_4	0.8488830486202366
+Supertype	pca256	knn	Vip_5	0.8489795918367347
+Supertype	pca256	knn	Vip_6	0.7490909090909091
+Supertype	pca256	knn	Vip_9	0.8385416666666666
+Supertype	gf_v2_104m_cls	logreg	Astro_1	0.5408805031446541
+Supertype	gf_v2_104m_cls	logreg	Astro_2	0.9283903675538656
+Supertype	gf_v2_104m_cls	logreg	Astro_3	0.935093509350935
+Supertype	gf_v2_104m_cls	logreg	Astro_5	0.8231046931407943
+Supertype	gf_v2_104m_cls	logreg	Astro_6-SEAAD	0.4218181818181818
+Supertype	gf_v2_104m_cls	logreg	Chandelier_1	0.96168470312957
+Supertype	gf_v2_104m_cls	logreg	Chandelier_2	0.9047272727272727
+Supertype	gf_v2_104m_cls	logreg	Endo_1	0.7815126050420168
+Supertype	gf_v2_104m_cls	logreg	Endo_2	0.9278247884519661
+Supertype	gf_v2_104m_cls	logreg	Endo_3	0.8506787330316742
+Supertype	gf_v2_104m_cls	logreg	L2/3 IT_1	0.9267893660531697
+Supertype	gf_v2_104m_cls	logreg	L2/3 IT_10	0.6741573033707865
+Supertype	gf_v2_104m_cls	logreg	L2/3 IT_13	0.8151898734177215
+Supertype	gf_v2_104m_cls	logreg	L2/3 IT_5	0.8787185354691075
+Supertype	gf_v2_104m_cls	logreg	L2/3 IT_6	0.8158415841584158
+Supertype	gf_v2_104m_cls	logreg	L4 IT_1	0.9236947791164659
+Supertype	gf_v2_104m_cls	logreg	L4 IT_2	0.9958937859293732
+Supertype	gf_v2_104m_cls	logreg	L4 IT_4	0.9756756756756757
+Supertype	gf_v2_104m_cls	logreg	L5 ET_1	0.9581818181818181
+Supertype	gf_v2_104m_cls	logreg	L5 ET_2	0.976482617586912
+Supertype	gf_v2_104m_cls	logreg	L5 IT_1	0.9363957597173145
+Supertype	gf_v2_104m_cls	logreg	L5 IT_2	0.9378640776699029
+Supertype	gf_v2_104m_cls	logreg	L5 IT_3	0.8981132075471698
+Supertype	gf_v2_104m_cls	logreg	L5 IT_5	0.8189415041782729
+Supertype	gf_v2_104m_cls	logreg	L5 IT_6	0.6956521739130435
+Supertype	gf_v2_104m_cls	logreg	L5 IT_7	0.8350515463917526
+Supertype	gf_v2_104m_cls	logreg	L5/6 NP_1	0.9064862713887784
+Supertype	gf_v2_104m_cls	logreg	L5/6 NP_2	0.8468345813478557
+Supertype	gf_v2_104m_cls	logreg	L5/6 NP_4	0.8404494382022472
+Supertype	gf_v2_104m_cls	logreg	L5/6 NP_6	0.5892116182572614
+Supertype	gf_v2_104m_cls	logreg	L6 CT_1	0.8808227465214761
+Supertype	gf_v2_104m_cls	logreg	L6 CT_2	0.9100998890122086
+Supertype	gf_v2_104m_cls	logreg	L6 CT_3	0.7377777777777778
+Supertype	gf_v2_104m_cls	logreg	L6 IT Car3_1	0.9313304721030042
+Supertype	gf_v2_104m_cls	logreg	L6 IT Car3_2	0.9066147859922179
+Supertype	gf_v2_104m_cls	logreg	L6 IT Car3_3	0.9786795048143053
+Supertype	gf_v2_104m_cls	logreg	L6 IT_1	0.8775981524249422
+Supertype	gf_v2_104m_cls	logreg	L6 IT_2	0.973756560859785
+Supertype	gf_v2_104m_cls	logreg	L6b_1	0.9571865443425076
+Supertype	gf_v2_104m_cls	logreg	L6b_2	0.9376
+Supertype	gf_v2_104m_cls	logreg	L6b_4	0.8947368421052632
+Supertype	gf_v2_104m_cls	logreg	L6b_5	0.6754385964912281
+Supertype	gf_v2_104m_cls	logreg	L6b_6	0.977582065652522
+Supertype	gf_v2_104m_cls	logreg	Lamp5_1	0.7942857142857143
+Supertype	gf_v2_104m_cls	logreg	Lamp5_2	0.9399054692775152
+Supertype	gf_v2_104m_cls	logreg	Lamp5_3	0.8475033738191633
+Supertype	gf_v2_104m_cls	logreg	Lamp5_5	0.9379084967320261
+Supertype	gf_v2_104m_cls	logreg	Lamp5_6	0.6304347826086957
+Supertype	gf_v2_104m_cls	logreg	Lamp5_Lhx6_1	0.9997921430056121
+Supertype	gf_v2_104m_cls	logreg	Micro-PVM_1	0.7941176470588235
+Supertype	gf_v2_104m_cls	logreg	Micro-PVM_2	0.8119218910585817
+Supertype	gf_v2_104m_cls	logreg	Micro-PVM_2_3-SEAAD	0.5942549371633752
+Supertype	gf_v2_104m_cls	logreg	Micro-PVM_3-SEAAD	0.5590682196339434
+Supertype	gf_v2_104m_cls	logreg	OPC_2	0.8740097112190135
+Supertype	gf_v2_104m_cls	logreg	OPC_2_1-SEAAD	0.5067750677506775
+Supertype	gf_v2_104m_cls	logreg	OPC_2_2-SEAAD	0.555205047318612
+Supertype	gf_v2_104m_cls	logreg	Oligo_1	0.8664987405541562
+Supertype	gf_v2_104m_cls	logreg	Oligo_2	0.842921256629947
+Supertype	gf_v2_104m_cls	logreg	Oligo_2_1-SEAAD	0.4618937644341801
+Supertype	gf_v2_104m_cls	logreg	Oligo_4	0.8878923766816144
+Supertype	gf_v2_104m_cls	logreg	Pax6_1	0.9784357901512714
+Supertype	gf_v2_104m_cls	logreg	Pax6_2	0.9294117647058824
+Supertype	gf_v2_104m_cls	logreg	Pax6_3	0.8429752066115702
+Supertype	gf_v2_104m_cls	logreg	Pax6_4	0.9042424242424243
+Supertype	gf_v2_104m_cls	logreg	Pericyte_1	0.9631402584968884
+Supertype	gf_v2_104m_cls	logreg	Pericyte_2-SEAAD	0.6851851851851852
+Supertype	gf_v2_104m_cls	logreg	Pvalb_1	0.8939393939393939
+Supertype	gf_v2_104m_cls	logreg	Pvalb_14	0.7843137254901961
+Supertype	gf_v2_104m_cls	logreg	Pvalb_15	0.9211746522411128
+Supertype	gf_v2_104m_cls	logreg	Pvalb_2	0.8013318534961155
+Supertype	gf_v2_104m_cls	logreg	Pvalb_3	0.7746031746031746
+Supertype	gf_v2_104m_cls	logreg	Pvalb_5	0.8
+Supertype	gf_v2_104m_cls	logreg	Pvalb_6	0.7982832618025751
+Supertype	gf_v2_104m_cls	logreg	Pvalb_9	0.9723756906077348
+Supertype	gf_v2_104m_cls	logreg	Sncg_1	0.8489010989010989
+Supertype	gf_v2_104m_cls	logreg	Sncg_2	0.7632850241545893
+Supertype	gf_v2_104m_cls	logreg	Sncg_4	0.9383697813121272
+Supertype	gf_v2_104m_cls	logreg	Sncg_5	0.8156028368794326
+Supertype	gf_v2_104m_cls	logreg	Sncg_6	0.8975468975468975
+Supertype	gf_v2_104m_cls	logreg	Sncg_8	0.9137055837563451
+Supertype	gf_v2_104m_cls	logreg	Sst Chodl_1	0.976
+Supertype	gf_v2_104m_cls	logreg	Sst Chodl_2	0.9696969696969697
+Supertype	gf_v2_104m_cls	logreg	Sst_10	0.8617021276595744
+Supertype	gf_v2_104m_cls	logreg	Sst_13	0.8791593695271454
+Supertype	gf_v2_104m_cls	logreg	Sst_19	0.9457364341085271
+Supertype	gf_v2_104m_cls	logreg	Sst_2	0.782608695652174
+Supertype	gf_v2_104m_cls	logreg	Sst_23	0.864406779661017
+Supertype	gf_v2_104m_cls	logreg	Sst_25	0.8688524590163934
+Supertype	gf_v2_104m_cls	logreg	Sst_3	0.9274193548387096
+Supertype	gf_v2_104m_cls	logreg	Sst_4	0.8714733542319749
+Supertype	gf_v2_104m_cls	logreg	Sst_5	0.8619854721549637
+Supertype	gf_v2_104m_cls	logreg	Sst_7	0.8809523809523809
+Supertype	gf_v2_104m_cls	logreg	Sst_9	0.8714285714285714
+Supertype	gf_v2_104m_cls	logreg	VLMC_1	0.9940119760479041
+Supertype	gf_v2_104m_cls	logreg	Vip_1	0.8672199170124482
+Supertype	gf_v2_104m_cls	logreg	Vip_11	0.8370221327967807
+Supertype	gf_v2_104m_cls	logreg	Vip_12	0.762962962962963
+Supertype	gf_v2_104m_cls	logreg	Vip_13	0.774390243902439
+Supertype	gf_v2_104m_cls	logreg	Vip_15	0.9488054607508533
+Supertype	gf_v2_104m_cls	logreg	Vip_19	0.9221902017291066
+Supertype	gf_v2_104m_cls	logreg	Vip_2	0.9166666666666666
+Supertype	gf_v2_104m_cls	logreg	Vip_23	0.9545454545454546
+Supertype	gf_v2_104m_cls	logreg	Vip_4	0.9072426937738246
+Supertype	gf_v2_104m_cls	logreg	Vip_5	0.888
+Supertype	gf_v2_104m_cls	logreg	Vip_6	0.8404669260700389
+Supertype	gf_v2_104m_cls	logreg	Vip_9	0.9141414141414141
+Supertype	gf_v2_104m_cls	knn	Astro_1	0.2903225806451613
+Supertype	gf_v2_104m_cls	knn	Astro_2	0.8980797636632201
+Supertype	gf_v2_104m_cls	knn	Astro_3	0.9225806451612903
+Supertype	gf_v2_104m_cls	knn	Astro_5	0.39790575916230364
+Supertype	gf_v2_104m_cls	knn	Astro_6-SEAAD	0.2
+Supertype	gf_v2_104m_cls	knn	Chandelier_1	0.9154696132596685
+Supertype	gf_v2_104m_cls	knn	Chandelier_2	0.7393526405451448
+Supertype	gf_v2_104m_cls	knn	Endo_1	0.5287356321839081
+Supertype	gf_v2_104m_cls	knn	Endo_2	0.8740475123263111
+Supertype	gf_v2_104m_cls	knn	Endo_3	0.5928853754940712
+Supertype	gf_v2_104m_cls	knn	L2/3 IT_1	0.8792640858566501
+Supertype	gf_v2_104m_cls	knn	L2/3 IT_10	0.42342342342342343
+Supertype	gf_v2_104m_cls	knn	L2/3 IT_13	0.6704545454545454
+Supertype	gf_v2_104m_cls	knn	L2/3 IT_5	0.7981220657276995
+Supertype	gf_v2_104m_cls	knn	L2/3 IT_6	0.6576482830385015
+Supertype	gf_v2_104m_cls	knn	L4 IT_1	0.8495575221238938
+Supertype	gf_v2_104m_cls	knn	L4 IT_2	0.9704551503859462
+Supertype	gf_v2_104m_cls	knn	L4 IT_4	0.949438202247191
+Supertype	gf_v2_104m_cls	knn	L5 ET_1	0.8863636363636364
+Supertype	gf_v2_104m_cls	knn	L5 ET_2	0.9410589410589411
+Supertype	gf_v2_104m_cls	knn	L5 IT_1	0.7581227436823105
+Supertype	gf_v2_104m_cls	knn	L5 IT_2	0.875
+Supertype	gf_v2_104m_cls	knn	L5 IT_3	0.6890756302521008
+Supertype	gf_v2_104m_cls	knn	L5 IT_5	0.6752
+Supertype	gf_v2_104m_cls	knn	L5 IT_6	0.25892857142857145
+Supertype	gf_v2_104m_cls	knn	L5 IT_7	0.591743119266055
+Supertype	gf_v2_104m_cls	knn	L5/6 NP_1	0.7409981048641819
+Supertype	gf_v2_104m_cls	knn	L5/6 NP_2	0.49636363636363634
+Supertype	gf_v2_104m_cls	knn	L5/6 NP_4	0.2932330827067669
+Supertype	gf_v2_104m_cls	knn	L5/6 NP_6	0.0
+Supertype	gf_v2_104m_cls	knn	L6 CT_1	0.7655748233782916
+Supertype	gf_v2_104m_cls	knn	L6 CT_2	0.8370805949498443
+Supertype	gf_v2_104m_cls	knn	L6 CT_3	0.06153846153846154
+Supertype	gf_v2_104m_cls	knn	L6 IT Car3_1	0.8163265306122449
+Supertype	gf_v2_104m_cls	knn	L6 IT Car3_2	0.6030534351145038
+Supertype	gf_v2_104m_cls	knn	L6 IT Car3_3	0.8674101610904585
+Supertype	gf_v2_104m_cls	knn	L6 IT_1	0.6618705035971223
+Supertype	gf_v2_104m_cls	knn	L6 IT_2	0.9342891278375149
+Supertype	gf_v2_104m_cls	knn	L6b_1	0.8355555555555556
+Supertype	gf_v2_104m_cls	knn	L6b_2	0.7703435804701627
+Supertype	gf_v2_104m_cls	knn	L6b_4	0.7430830039525692
+Supertype	gf_v2_104m_cls	knn	L6b_5	0.03076923076923077
+Supertype	gf_v2_104m_cls	knn	L6b_6	0.930928626247122
+Supertype	gf_v2_104m_cls	knn	Lamp5_1	0.448
+Supertype	gf_v2_104m_cls	knn	Lamp5_2	0.8948019801980198
+Supertype	gf_v2_104m_cls	knn	Lamp5_3	0.6411149825783972
+Supertype	gf_v2_104m_cls	knn	Lamp5_5	0.8768768768768769
+Supertype	gf_v2_104m_cls	knn	Lamp5_6	0.2857142857142857
+Supertype	gf_v2_104m_cls	knn	Lamp5_Lhx6_1	0.9997921430056121
+Supertype	gf_v2_104m_cls	knn	Micro-PVM_1	0.7292817679558011
+Supertype	gf_v2_104m_cls	knn	Micro-PVM_2	0.7980295566502463
+Supertype	gf_v2_104m_cls	knn	Micro-PVM_2_3-SEAAD	0.5304878048780488
+Supertype	gf_v2_104m_cls	knn	Micro-PVM_3-SEAAD	0.3341176470588235
+Supertype	gf_v2_104m_cls	knn	OPC_2	0.8713534194165471
+Supertype	gf_v2_104m_cls	knn	OPC_2_1-SEAAD	0.3658119658119658
+Supertype	gf_v2_104m_cls	knn	OPC_2_2-SEAAD	0.15920398009950248
+Supertype	gf_v2_104m_cls	knn	Oligo_1	0.7272727272727273
+Supertype	gf_v2_104m_cls	knn	Oligo_2	0.8226527570789866
+Supertype	gf_v2_104m_cls	knn	Oligo_2_1-SEAAD	0.29850746268656714
+Supertype	gf_v2_104m_cls	knn	Oligo_4	0.8573342263898192
+Supertype	gf_v2_104m_cls	knn	Pax6_1	0.9303587579137775
+Supertype	gf_v2_104m_cls	knn	Pax6_2	0.5128205128205128
+Supertype	gf_v2_104m_cls	knn	Pax6_3	0.6158730158730159
+Supertype	gf_v2_104m_cls	knn	Pax6_4	0.7995283018867925
+Supertype	gf_v2_104m_cls	knn	Pericyte_1	0.9573370839193625
+Supertype	gf_v2_104m_cls	knn	Pericyte_2-SEAAD	0.40789473684210525
+Supertype	gf_v2_104m_cls	knn	Pvalb_1	0.7364016736401674
+Supertype	gf_v2_104m_cls	knn	Pvalb_14	0.49101796407185627
+Supertype	gf_v2_104m_cls	knn	Pvalb_15	0.9006085192697769
+Supertype	gf_v2_104m_cls	knn	Pvalb_2	0.7287977632805219
+Supertype	gf_v2_104m_cls	knn	Pvalb_3	0.5210727969348659
+Supertype	gf_v2_104m_cls	knn	Pvalb_5	0.5490196078431373
+Supertype	gf_v2_104m_cls	knn	Pvalb_6	0.649746192893401
+Supertype	gf_v2_104m_cls	knn	Pvalb_9	0.931129476584022
+Supertype	gf_v2_104m_cls	knn	Sncg_1	0.7435549525101763
+Supertype	gf_v2_104m_cls	knn	Sncg_2	0.47058823529411764
+Supertype	gf_v2_104m_cls	knn	Sncg_4	0.8852852852852853
+Supertype	gf_v2_104m_cls	knn	Sncg_5	0.5286783042394015
+Supertype	gf_v2_104m_cls	knn	Sncg_6	0.8623298033282905
+Supertype	gf_v2_104m_cls	knn	Sncg_8	0.8467289719626169
+Supertype	gf_v2_104m_cls	knn	Sst Chodl_1	0.9685393258426966
+Supertype	gf_v2_104m_cls	knn	Sst Chodl_2	0.9194097616345063
+Supertype	gf_v2_104m_cls	knn	Sst_10	0.7862796833773087
+Supertype	gf_v2_104m_cls	knn	Sst_13	0.8132231404958677
+Supertype	gf_v2_104m_cls	knn	Sst_19	0.9186746987951807
+Supertype	gf_v2_104m_cls	knn	Sst_2	0.7524752475247525
+Supertype	gf_v2_104m_cls	knn	Sst_23	0.8416666666666667
+Supertype	gf_v2_104m_cls	knn	Sst_25	0.7614678899082569
+Supertype	gf_v2_104m_cls	knn	Sst_3	0.8944444444444445
+Supertype	gf_v2_104m_cls	knn	Sst_4	0.5581395348837209
+Supertype	gf_v2_104m_cls	knn	Sst_5	0.6864406779661016
+Supertype	gf_v2_104m_cls	knn	Sst_7	0.7641509433962265
+Supertype	gf_v2_104m_cls	knn	Sst_9	0.7704918032786885
+Supertype	gf_v2_104m_cls	knn	VLMC_1	0.9876421156697973
+Supertype	gf_v2_104m_cls	knn	Vip_1	0.8055555555555556
+Supertype	gf_v2_104m_cls	knn	Vip_11	0.7137681159420289
+Supertype	gf_v2_104m_cls	knn	Vip_12	0.6060606060606061
+Supertype	gf_v2_104m_cls	knn	Vip_13	0.56875
+Supertype	gf_v2_104m_cls	knn	Vip_15	0.8872727272727273
+Supertype	gf_v2_104m_cls	knn	Vip_19	0.873900293255132
+Supertype	gf_v2_104m_cls	knn	Vip_2	0.7698744769874477
+Supertype	gf_v2_104m_cls	knn	Vip_23	0.9351230425055929
+Supertype	gf_v2_104m_cls	knn	Vip_4	0.8797953964194374
+Supertype	gf_v2_104m_cls	knn	Vip_5	0.8103448275862069
+Supertype	gf_v2_104m_cls	knn	Vip_6	0.6991869918699187
+Supertype	gf_v2_104m_cls	knn	Vip_9	0.8304668304668305
+Supertype	gf_v2_104m_cls_pca50	logreg	Astro_1	0.48427672955974843
+Supertype	gf_v2_104m_cls_pca50	logreg	Astro_2	0.9213905418102099
+Supertype	gf_v2_104m_cls_pca50	logreg	Astro_3	0.9157667386609071
+Supertype	gf_v2_104m_cls_pca50	logreg	Astro_5	0.5793650793650794
+Supertype	gf_v2_104m_cls_pca50	logreg	Astro_6-SEAAD	0.4016393442622951
+Supertype	gf_v2_104m_cls_pca50	logreg	Chandelier_1	0.9334889148191365
+Supertype	gf_v2_104m_cls_pca50	logreg	Chandelier_2	0.8324798829553768
+Supertype	gf_v2_104m_cls_pca50	logreg	Endo_1	0.7048458149779736
+Supertype	gf_v2_104m_cls_pca50	logreg	Endo_2	0.8981390793339863
+Supertype	gf_v2_104m_cls_pca50	logreg	Endo_3	0.748829953198128
+Supertype	gf_v2_104m_cls_pca50	logreg	L2/3 IT_1	0.9067315490673155
+Supertype	gf_v2_104m_cls_pca50	logreg	L2/3 IT_10	0.5354330708661418
+Supertype	gf_v2_104m_cls_pca50	logreg	L2/3 IT_13	0.765
+Supertype	gf_v2_104m_cls_pca50	logreg	L2/3 IT_5	0.8082191780821918
+Supertype	gf_v2_104m_cls_pca50	logreg	L2/3 IT_6	0.7472527472527473
+Supertype	gf_v2_104m_cls_pca50	logreg	L4 IT_1	0.8629032258064516
+Supertype	gf_v2_104m_cls_pca50	logreg	L4 IT_2	0.9929039301310044
+Supertype	gf_v2_104m_cls_pca50	logreg	L4 IT_4	0.958904109589041
+Supertype	gf_v2_104m_cls_pca50	logreg	L5 ET_1	0.927797833935018
+Supertype	gf_v2_104m_cls_pca50	logreg	L5 ET_2	0.9599589322381931
+Supertype	gf_v2_104m_cls_pca50	logreg	L5 IT_1	0.8982456140350877
+Supertype	gf_v2_104m_cls_pca50	logreg	L5 IT_2	0.9023797960174842
+Supertype	gf_v2_104m_cls_pca50	logreg	L5 IT_3	0.8571428571428571
+Supertype	gf_v2_104m_cls_pca50	logreg	L5 IT_5	0.7547169811320755
+Supertype	gf_v2_104m_cls_pca50	logreg	L5 IT_6	0.5768025078369906
+Supertype	gf_v2_104m_cls_pca50	logreg	L5 IT_7	0.7791304347826087
+Supertype	gf_v2_104m_cls_pca50	logreg	L5/6 NP_1	0.80441400304414
+Supertype	gf_v2_104m_cls_pca50	logreg	L5/6 NP_2	0.6926345609065155
+Supertype	gf_v2_104m_cls_pca50	logreg	L5/6 NP_4	0.6858513189448441
+Supertype	gf_v2_104m_cls_pca50	logreg	L5/6 NP_6	0.330188679245283
+Supertype	gf_v2_104m_cls_pca50	logreg	L6 CT_1	0.8449328449328449
+Supertype	gf_v2_104m_cls_pca50	logreg	L6 CT_2	0.8879088570378537
+Supertype	gf_v2_104m_cls_pca50	logreg	L6 CT_3	0.7162790697674418
+Supertype	gf_v2_104m_cls_pca50	logreg	L6 IT Car3_1	0.8888888888888888
+Supertype	gf_v2_104m_cls_pca50	logreg	L6 IT Car3_2	0.8235294117647058
+Supertype	gf_v2_104m_cls_pca50	logreg	L6 IT Car3_3	0.9448656099241902
+Supertype	gf_v2_104m_cls_pca50	logreg	L6 IT_1	0.8362779740871613
+Supertype	gf_v2_104m_cls_pca50	logreg	L6 IT_2	0.965362571642163
+Supertype	gf_v2_104m_cls_pca50	logreg	L6b_1	0.9013657056145675
+Supertype	gf_v2_104m_cls_pca50	logreg	L6b_2	0.912
+Supertype	gf_v2_104m_cls_pca50	logreg	L6b_4	0.8372093023255814
+Supertype	gf_v2_104m_cls_pca50	logreg	L6b_5	0.43157894736842106
+Supertype	gf_v2_104m_cls_pca50	logreg	L6b_6	0.9628458498023715
+Supertype	gf_v2_104m_cls_pca50	logreg	Lamp5_1	0.7732558139534884
+Supertype	gf_v2_104m_cls_pca50	logreg	Lamp5_2	0.9291232784682566
+Supertype	gf_v2_104m_cls_pca50	logreg	Lamp5_3	0.8065395095367848
+Supertype	gf_v2_104m_cls_pca50	logreg	Lamp5_5	0.9311475409836065
+Supertype	gf_v2_104m_cls_pca50	logreg	Lamp5_6	0.6010928961748634
+Supertype	gf_v2_104m_cls_pca50	logreg	Lamp5_Lhx6_1	0.9997920565606155
+Supertype	gf_v2_104m_cls_pca50	logreg	Micro-PVM_1	0.7342995169082126
+Supertype	gf_v2_104m_cls_pca50	logreg	Micro-PVM_2	0.8098118279569892
+Supertype	gf_v2_104m_cls_pca50	logreg	Micro-PVM_2_3-SEAAD	0.6082191780821918
+Supertype	gf_v2_104m_cls_pca50	logreg	Micro-PVM_3-SEAAD	0.47927927927927927
+Supertype	gf_v2_104m_cls_pca50	logreg	OPC_2	0.8739076154806492
+Supertype	gf_v2_104m_cls_pca50	logreg	OPC_2_1-SEAAD	0.42879019908116384
+Supertype	gf_v2_104m_cls_pca50	logreg	OPC_2_2-SEAAD	0.5548387096774193
+Supertype	gf_v2_104m_cls_pca50	logreg	Oligo_1	0.8223350253807107
+Supertype	gf_v2_104m_cls_pca50	logreg	Oligo_2	0.8356769787063077
+Supertype	gf_v2_104m_cls_pca50	logreg	Oligo_2_1-SEAAD	0.44607843137254904
+Supertype	gf_v2_104m_cls_pca50	logreg	Oligo_4	0.8781431334622823
+Supertype	gf_v2_104m_cls_pca50	logreg	Pax6_1	0.966485796361315
+Supertype	gf_v2_104m_cls_pca50	logreg	Pax6_2	0.865979381443299
+Supertype	gf_v2_104m_cls_pca50	logreg	Pax6_3	0.7688022284122563
+Supertype	gf_v2_104m_cls_pca50	logreg	Pax6_4	0.8592057761732852
+Supertype	gf_v2_104m_cls_pca50	logreg	Pericyte_1	0.9637058261700095
+Supertype	gf_v2_104m_cls_pca50	logreg	Pericyte_2-SEAAD	0.6796116504854369
+Supertype	gf_v2_104m_cls_pca50	logreg	Pvalb_1	0.823076923076923
+Supertype	gf_v2_104m_cls_pca50	logreg	Pvalb_14	0.6455026455026455
+Supertype	gf_v2_104m_cls_pca50	logreg	Pvalb_15	0.9073120494335737
+Supertype	gf_v2_104m_cls_pca50	logreg	Pvalb_2	0.7647058823529411
+Supertype	gf_v2_104m_cls_pca50	logreg	Pvalb_3	0.670926517571885
+Supertype	gf_v2_104m_cls_pca50	logreg	Pvalb_5	0.7191011235955056
+Supertype	gf_v2_104m_cls_pca50	logreg	Pvalb_6	0.7012987012987013
+Supertype	gf_v2_104m_cls_pca50	logreg	Pvalb_9	0.9591280653950953
+Supertype	gf_v2_104m_cls_pca50	logreg	Sncg_1	0.7951153324287653
+Supertype	gf_v2_104m_cls_pca50	logreg	Sncg_2	0.6161616161616161
+Supertype	gf_v2_104m_cls_pca50	logreg	Sncg_4	0.914626075446724
+Supertype	gf_v2_104m_cls_pca50	logreg	Sncg_5	0.7425569176882661
+Supertype	gf_v2_104m_cls_pca50	logreg	Sncg_6	0.8788321167883212
+Supertype	gf_v2_104m_cls_pca50	logreg	Sncg_8	0.8762677484787018
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst Chodl_1	0.9772727272727273
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst Chodl_2	0.9670588235294117
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst_10	0.8364611260053619
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst_13	0.8210526315789474
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst_19	0.916923076923077
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst_2	0.7605633802816901
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst_23	0.8632478632478633
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst_25	0.8421052631578947
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst_3	0.9118046132971506
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst_4	0.6942675159235668
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst_5	0.7434052757793765
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst_7	0.8549019607843137
+Supertype	gf_v2_104m_cls_pca50	logreg	Sst_9	0.8100358422939068
+Supertype	gf_v2_104m_cls_pca50	logreg	VLMC_1	0.9920318725099602
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_1	0.8427672955974843
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_11	0.7855711422845691
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_12	0.7224334600760456
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_13	0.7223880597014926
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_15	0.8648648648648649
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_19	0.8914285714285715
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_2	0.8604651162790697
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_23	0.9321266968325792
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_4	0.8794871794871795
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_5	0.8549019607843137
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_6	0.7984496124031008
+Supertype	gf_v2_104m_cls_pca50	logreg	Vip_9	0.8787878787878788
+Supertype	gf_v2_104m_cls_pca50	knn	Astro_1	0.39072847682119205
+Supertype	gf_v2_104m_cls_pca50	knn	Astro_2	0.9062405788362978
+Supertype	gf_v2_104m_cls_pca50	knn	Astro_3	0.9060190073917634
+Supertype	gf_v2_104m_cls_pca50	knn	Astro_5	0.21468926553672316
+Supertype	gf_v2_104m_cls_pca50	knn	Astro_6-SEAAD	0.28272251308900526
+Supertype	gf_v2_104m_cls_pca50	knn	Chandelier_1	0.8848484848484849
+Supertype	gf_v2_104m_cls_pca50	knn	Chandelier_2	0.6408934707903781
+Supertype	gf_v2_104m_cls_pca50	knn	Endo_1	0.36257309941520466
+Supertype	gf_v2_104m_cls_pca50	knn	Endo_2	0.8471731448763251
+Supertype	gf_v2_104m_cls_pca50	knn	Endo_3	0.44025157232704404
+Supertype	gf_v2_104m_cls_pca50	knn	L2/3 IT_1	0.8662420382165605
+Supertype	gf_v2_104m_cls_pca50	knn	L2/3 IT_10	0.3744292237442922
+Supertype	gf_v2_104m_cls_pca50	knn	L2/3 IT_13	0.6608695652173913
+Supertype	gf_v2_104m_cls_pca50	knn	L2/3 IT_5	0.7796610169491526
+Supertype	gf_v2_104m_cls_pca50	knn	L2/3 IT_6	0.579175704989154
+Supertype	gf_v2_104m_cls_pca50	knn	L4 IT_1	0.7905982905982906
+Supertype	gf_v2_104m_cls_pca50	knn	L4 IT_2	0.9819455672325519
+Supertype	gf_v2_104m_cls_pca50	knn	L4 IT_4	0.9466666666666667
+Supertype	gf_v2_104m_cls_pca50	knn	L5 ET_1	0.8519579751671442
+Supertype	gf_v2_104m_cls_pca50	knn	L5 ET_2	0.9220843672456576
+Supertype	gf_v2_104m_cls_pca50	knn	L5 IT_1	0.781021897810219
+Supertype	gf_v2_104m_cls_pca50	knn	L5 IT_2	0.8654205607476636
+Supertype	gf_v2_104m_cls_pca50	knn	L5 IT_3	0.7450980392156863
+Supertype	gf_v2_104m_cls_pca50	knn	L5 IT_5	0.6887966804979253
+Supertype	gf_v2_104m_cls_pca50	knn	L5 IT_6	0.2672413793103448
+Supertype	gf_v2_104m_cls_pca50	knn	L5 IT_7	0.6652806652806653
+Supertype	gf_v2_104m_cls_pca50	knn	L5/6 NP_1	0.7160570365778053
+Supertype	gf_v2_104m_cls_pca50	knn	L5/6 NP_2	0.3796740172579099
+Supertype	gf_v2_104m_cls_pca50	knn	L5/6 NP_4	0.20689655172413793
+Supertype	gf_v2_104m_cls_pca50	knn	L5/6 NP_6	0.0
+Supertype	gf_v2_104m_cls_pca50	knn	L6 CT_1	0.7608286252354048
+Supertype	gf_v2_104m_cls_pca50	knn	L6 CT_2	0.8325728325728325
+Supertype	gf_v2_104m_cls_pca50	knn	L6 CT_3	0.14705882352941177
+Supertype	gf_v2_104m_cls_pca50	knn	L6 IT Car3_1	0.7314702308626975
+Supertype	gf_v2_104m_cls_pca50	knn	L6 IT Car3_2	0.6075949367088608
+Supertype	gf_v2_104m_cls_pca50	knn	L6 IT Car3_3	0.8570524984187223
+Supertype	gf_v2_104m_cls_pca50	knn	L6 IT_1	0.6638176638176638
+Supertype	gf_v2_104m_cls_pca50	knn	L6 IT_2	0.9368547418967587
+Supertype	gf_v2_104m_cls_pca50	knn	L6b_1	0.7960057061340942
+Supertype	gf_v2_104m_cls_pca50	knn	L6b_2	0.7592592592592593
+Supertype	gf_v2_104m_cls_pca50	knn	L6b_4	0.704635761589404
+Supertype	gf_v2_104m_cls_pca50	knn	L6b_5	0.058394160583941604
+Supertype	gf_v2_104m_cls_pca50	knn	L6b_6	0.9281853281853282
+Supertype	gf_v2_104m_cls_pca50	knn	Lamp5_1	0.4326530612244898
+Supertype	gf_v2_104m_cls_pca50	knn	Lamp5_2	0.8969394128669581
+Supertype	gf_v2_104m_cls_pca50	knn	Lamp5_3	0.6820428336079077
+Supertype	gf_v2_104m_cls_pca50	knn	Lamp5_5	0.888208269525268
+Supertype	gf_v2_104m_cls_pca50	knn	Lamp5_6	0.3262411347517731
+Supertype	gf_v2_104m_cls_pca50	knn	Lamp5_Lhx6_1	0.9995843724023276
+Supertype	gf_v2_104m_cls_pca50	knn	Micro-PVM_1	0.6984126984126984
+Supertype	gf_v2_104m_cls_pca50	knn	Micro-PVM_2	0.793859649122807
+Supertype	gf_v2_104m_cls_pca50	knn	Micro-PVM_2_3-SEAAD	0.5510597302504817
+Supertype	gf_v2_104m_cls_pca50	knn	Micro-PVM_3-SEAAD	0.26730310262529833
+Supertype	gf_v2_104m_cls_pca50	knn	OPC_2	0.8751492002864646
+Supertype	gf_v2_104m_cls_pca50	knn	OPC_2_1-SEAAD	0.35978835978835977
+Supertype	gf_v2_104m_cls_pca50	knn	OPC_2_2-SEAAD	0.2169811320754717
+Supertype	gf_v2_104m_cls_pca50	knn	Oligo_1	0.675
+Supertype	gf_v2_104m_cls_pca50	knn	Oligo_2	0.8133086876155268
+Supertype	gf_v2_104m_cls_pca50	knn	Oligo_2_1-SEAAD	0.31671554252199413
+Supertype	gf_v2_104m_cls_pca50	knn	Oligo_4	0.8381855111712931
+Supertype	gf_v2_104m_cls_pca50	knn	Pax6_1	0.9182277728218852
+Supertype	gf_v2_104m_cls_pca50	knn	Pax6_2	0.29900332225913623
+Supertype	gf_v2_104m_cls_pca50	knn	Pax6_3	0.6430868167202572
+Supertype	gf_v2_104m_cls_pca50	knn	Pax6_4	0.8014018691588785
+Supertype	gf_v2_104m_cls_pca50	knn	Pericyte_1	0.9598488427019367
+Supertype	gf_v2_104m_cls_pca50	knn	Pericyte_2-SEAAD	0.5263157894736842
+Supertype	gf_v2_104m_cls_pca50	knn	Pvalb_1	0.7531380753138075
+Supertype	gf_v2_104m_cls_pca50	knn	Pvalb_14	0.4146341463414634
+Supertype	gf_v2_104m_cls_pca50	knn	Pvalb_15	0.8800813008130082
+Supertype	gf_v2_104m_cls_pca50	knn	Pvalb_2	0.6810102899906455
+Supertype	gf_v2_104m_cls_pca50	knn	Pvalb_3	0.47692307692307695
+Supertype	gf_v2_104m_cls_pca50	knn	Pvalb_5	0.5806451612903226
+Supertype	gf_v2_104m_cls_pca50	knn	Pvalb_6	0.5775401069518716
+Supertype	gf_v2_104m_cls_pca50	knn	Pvalb_9	0.9510869565217391
+Supertype	gf_v2_104m_cls_pca50	knn	Sncg_1	0.7267833109017496
+Supertype	gf_v2_104m_cls_pca50	knn	Sncg_2	0.35526315789473684
+Supertype	gf_v2_104m_cls_pca50	knn	Sncg_4	0.887946698970321
+Supertype	gf_v2_104m_cls_pca50	knn	Sncg_5	0.47342995169082125
+Supertype	gf_v2_104m_cls_pca50	knn	Sncg_6	0.8408037094281299
+Supertype	gf_v2_104m_cls_pca50	knn	Sncg_8	0.8081556997219648
+Supertype	gf_v2_104m_cls_pca50	knn	Sst Chodl_1	0.9730941704035875
+Supertype	gf_v2_104m_cls_pca50	knn	Sst Chodl_2	0.9462616822429907
+Supertype	gf_v2_104m_cls_pca50	knn	Sst_10	0.8051282051282052
+Supertype	gf_v2_104m_cls_pca50	knn	Sst_13	0.7796610169491526
+Supertype	gf_v2_104m_cls_pca50	knn	Sst_19	0.8885630498533724
+Supertype	gf_v2_104m_cls_pca50	knn	Sst_2	0.76
+Supertype	gf_v2_104m_cls_pca50	knn	Sst_23	0.8047808764940239
+Supertype	gf_v2_104m_cls_pca50	knn	Sst_25	0.7685589519650655
+Supertype	gf_v2_104m_cls_pca50	knn	Sst_3	0.8806818181818182
+Supertype	gf_v2_104m_cls_pca50	knn	Sst_4	0.4489795918367347
+Supertype	gf_v2_104m_cls_pca50	knn	Sst_5	0.6471816283924844
+Supertype	gf_v2_104m_cls_pca50	knn	Sst_7	0.7777777777777778
+Supertype	gf_v2_104m_cls_pca50	knn	Sst_9	0.7692307692307693
+Supertype	gf_v2_104m_cls_pca50	knn	VLMC_1	0.9891089108910891
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_1	0.8088531187122736
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_11	0.7259786476868327
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_12	0.6101694915254238
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_13	0.52
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_15	0.8612099644128114
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_19	0.8908045977011494
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_2	0.792
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_23	0.9297052154195011
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_4	0.8777348777348777
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_5	0.8211382113821138
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_6	0.7619047619047619
+Supertype	gf_v2_104m_cls_pca50	knn	Vip_9	0.8593350383631714

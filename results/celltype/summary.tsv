@@ -1,0 +1,217 @@
+label	embedding	probe	metric	value	fold_sd	dim	C
+Subclass	gf_random_v2_104m_cls	logreg	accuracy	0.9052487333441518	0.003570286942645413	768	0.1
+Subclass	gf_random_v2_104m_cls	logreg	balanced_accuracy	0.9059471908742043	0.003197440731654278	768	0.1
+Subclass	gf_random_v2_104m_cls	logreg	macro_f1	0.9062430118418647	0.0036169315267426997	768	0.1
+Subclass	gf_random_v2_104m_cls	logreg	log_loss	0.2945369029625191	0.010835851814822536	768	0.1
+Subclass	gf_random_v2_104m_cls	logreg	brier	0.13894431784699782	0.00495712072471993	768	0.1
+Subclass	gf_random_v2_104m_cls	logreg	ece	0.01139217510642725	0.0011453628562990987	768	0.1
+Subclass	gf_random_v2_104m_cls	knn	accuracy	0.49586195705090064	0.00833266021489283	768	0.1
+Subclass	gf_random_v2_104m_cls	knn	balanced_accuracy	0.49595403989821607	0.009255966752871311	768	0.1
+Subclass	gf_random_v2_104m_cls	knn	macro_f1	0.4848687688627191	0.007995685390466165	768	0.1
+Subclass	gf_random_v2_104m_cls	knn	log_loss	4.196089986054249	0.1658788903993828	768	0.1
+Subclass	gf_random_v2_104m_cls	knn	brier	0.6749673544383972	0.007990354911850484	768	0.1
+Subclass	gf_random_v2_104m_cls	knn	ece	0.129698346591164	0.006091204180283494	768	0.1
+Subclass	gf_random_v2_104m_cls	logreg_permuted	accuracy	0.04353918346244311		768	0.1
+Subclass	gf_random_v2_104m_cls	logreg_permuted	balanced_accuracy	0.04141368107980718		768	0.1
+Subclass	gf_random_v2_104m_cls	logreg_permuted	macro_f1	0.040990437020345535		768	0.1
+Subclass	gf_random_v2_104m_cls	logreg_permuted	log_loss	3.328774659357152		768	0.1
+Subclass	gf_random_v2_104m_cls	logreg_permuted	brier	0.97352844403728		768	0.1
+Subclass	gf_random_v2_104m_cls	logreg_permuted	ece	0.07323865299715589		768	0.1
+Subclass	gf_v2_104m_cls	logreg	accuracy	0.9933827374190873	0.001094939343063844	768	1.0
+Subclass	gf_v2_104m_cls	logreg	balanced_accuracy	0.9935964059325041	0.001011207387533933	768	1.0
+Subclass	gf_v2_104m_cls	logreg	macro_f1	0.9934937859883455	0.0012966595486569193	768	1.0
+Subclass	gf_v2_104m_cls	logreg	log_loss	0.019459733826642026	0.0030021515918930465	768	1.0
+Subclass	gf_v2_104m_cls	logreg	brier	0.010276050995173692	0.001552894069272528	768	1.0
+Subclass	gf_v2_104m_cls	logreg	ece	0.0007685643247673405	0.00047368887475366213	768	1.0
+Subclass	gf_v2_104m_cls	knn	accuracy	0.9894881087611114	0.0005536778000353862	768	1.0
+Subclass	gf_v2_104m_cls	knn	balanced_accuracy	0.9899596746209367	0.0006034542685940774	768	1.0
+Subclass	gf_v2_104m_cls	knn	macro_f1	0.9895205238460781	0.000477450945099998	768	1.0
+Subclass	gf_v2_104m_cls	knn	log_loss	0.03840781685089613	0.003893523263950913	768	1.0
+Subclass	gf_v2_104m_cls	knn	brier	0.016740492318096278	0.0009872299310867934	768	1.0
+Subclass	gf_v2_104m_cls	knn	ece	0.007070433858986745	0.0002701617910203747	768	1.0
+Subclass	gf_v2_104m_cls	logreg_permuted	accuracy	0.04170866787028157		768	1.0
+Subclass	gf_v2_104m_cls	logreg_permuted	balanced_accuracy	0.0397293972032703		768	1.0
+Subclass	gf_v2_104m_cls	logreg_permuted	macro_f1	0.03913329219209046		768	1.0
+Subclass	gf_v2_104m_cls	logreg_permuted	log_loss	3.329387022529475		768	1.0
+Subclass	gf_v2_104m_cls	logreg_permuted	brier	0.9729637393130097		768	1.0
+Subclass	gf_v2_104m_cls	logreg_permuted	ece	0.07311108420768497		768	1.0
+Subclass	pca	logreg	accuracy	0.9918681596076522	0.0004524272176493357	50	1.0
+Subclass	pca	logreg	balanced_accuracy	0.9921580968326911	0.00043690227827658176	50	1.0
+Subclass	pca	logreg	macro_f1	0.9920843341912059	0.0004412758842569635	50	1.0
+Subclass	pca	logreg	log_loss	0.023546398300715168	0.001646433416871773	50	1.0
+Subclass	pca	logreg	brier	0.01255446679533715	0.0009250254836205368	50	1.0
+Subclass	pca	logreg	ece	0.0011915583887123675	0.0008247238075286741	50	1.0
+Subclass	pca	knn	accuracy	0.9925352950722129	0.0005742963948351064	50	1.0
+Subclass	pca	knn	balanced_accuracy	0.9927595329277213	0.000495130065936862	50	1.0
+Subclass	pca	knn	macro_f1	0.9926830805931156	0.0006005917062172104	50	1.0
+Subclass	pca	knn	log_loss	0.029013863244649208	0.005291729191287151	50	1.0
+Subclass	pca	knn	brier	0.011578426481950902	0.0005927603455045642	50	1.0
+Subclass	pca	knn	ece	0.0037143217548860517	0.0008923987001498793	50	1.0
+Subclass	pca	logreg_permuted	accuracy	0.036812681669454825		50	1.0
+Subclass	pca	logreg_permuted	balanced_accuracy	0.03445831752474057		50	1.0
+Subclass	pca	logreg_permuted	macro_f1	0.03286341436584764		50	1.0
+Subclass	pca	logreg_permuted	log_loss	3.1862498459419415		50	1.0
+Subclass	pca	logreg_permuted	brier	0.9591760733782358		50	1.0
+Subclass	pca	logreg_permuted	ece	0.025240968073200126		50	1.0
+Subclass	pca_harmony	logreg	accuracy	0.990245397666829	0.0006570670205435589	50	1.0
+Subclass	pca_harmony	logreg	balanced_accuracy	0.9902827991213234	0.0006667166954087186	50	1.0
+Subclass	pca_harmony	logreg	macro_f1	0.9901908238683097	0.0008963895944796231	50	1.0
+Subclass	pca_harmony	logreg	log_loss	0.027373046632131734	0.0008363101272473099	50	1.0
+Subclass	pca_harmony	logreg	brier	0.014832341205647635	0.0005752605899386621	50	1.0
+Subclass	pca_harmony	logreg	ece	0.0009374666366666407	0.0003719879358621419	50	1.0
+Subclass	pca_harmony	knn	accuracy	0.9908764717549269	0.0004528436759953879	50	1.0
+Subclass	pca_harmony	knn	balanced_accuracy	0.9909911117109171	0.0006068215303561354	50	1.0
+Subclass	pca_harmony	knn	macro_f1	0.9908424116954397	0.0005519741081513938	50	1.0
+Subclass	pca_harmony	knn	log_loss	0.04307427006532401	0.0054828631630982165	50	1.0
+Subclass	pca_harmony	knn	brier	0.013568854189842045	0.0007145258659743062	50	1.0
+Subclass	pca_harmony	knn	ece	0.002687774571351797	0.0009091009316829291	50	1.0
+Subclass	pca_harmony	logreg_permuted	accuracy	0.03890222904297326		50	1.0
+Subclass	pca_harmony	logreg_permuted	balanced_accuracy	0.036408414358774226		50	1.0
+Subclass	pca_harmony	logreg_permuted	macro_f1	0.03483786132995227		50	1.0
+Subclass	pca_harmony	logreg_permuted	log_loss	3.185794263765116		50	1.0
+Subclass	pca_harmony	logreg_permuted	brier	0.9591329207658857		50	1.0
+Subclass	pca_harmony	logreg_permuted	ece	0.022211561206873		50	1.0
+Subclass	randproj	logreg	accuracy	0.8996772506806585	0.007829487723298533	50	0.1
+Subclass	randproj	logreg	balanced_accuracy	0.9014538340213893	0.007945161099836059	50	0.1
+Subclass	randproj	logreg	macro_f1	0.9014322583765894	0.007985395080140208	50	0.1
+Subclass	randproj	logreg	log_loss	0.32436293263	0.025995947194593413	50	0.1
+Subclass	randproj	logreg	brier	0.14691735490637467	0.009667977188915591	50	0.1
+Subclass	randproj	logreg	ece	0.01757405896130266	0.00149970404104768	50	0.1
+Subclass	randproj	knn	accuracy	0.8637781504120012	0.008833218875942569	50	0.1
+Subclass	randproj	knn	balanced_accuracy	0.8659599500339379	0.008950778249587156	50	0.1
+Subclass	randproj	knn	macro_f1	0.8678098343963718	0.008597722171430962	50	0.1
+Subclass	randproj	knn	log_loss	0.9318931677140126	0.08230689249470215	50	0.1
+Subclass	randproj	knn	brier	0.20450086046572646	0.011555438689220491	50	0.1
+Subclass	randproj	knn	ece	0.05978976217463973	0.0017986394178463332	50	0.1
+Subclass	randproj	logreg_permuted	accuracy	0.04005589825113733		50	0.1
+Subclass	randproj	logreg_permuted	balanced_accuracy	0.037511153643384525		50	0.1
+Subclass	randproj	logreg_permuted	macro_f1	0.03516153312605776		50	0.1
+Subclass	randproj	logreg_permuted	log_loss	3.179729538127156		50	0.1
+Subclass	randproj	logreg_permuted	brier	0.9586804715643925		50	0.1
+Subclass	randproj	logreg_permuted	ece	0.019620580144248112		50	0.1
+Subclass	ref_scvi	logreg	accuracy	0.9928598474603776	0.0007935154928647876	20	1.0
+Subclass	ref_scvi	logreg	balanced_accuracy	0.9930349737752661	0.0008324284338237022	20	1.0
+Subclass	ref_scvi	logreg	macro_f1	0.9930195875957368	0.0007878396465441507	20	1.0
+Subclass	ref_scvi	logreg	log_loss	0.023787288008869676	0.003117296326747702	20	1.0
+Subclass	ref_scvi	logreg	brier	0.011168913103607485	0.0012916307743056005	20	1.0
+Subclass	ref_scvi	logreg	ece	0.006511785522870543	0.001470188871814946	20	1.0
+Subclass	ref_scvi	knn	accuracy	0.9929500009015344	0.0006293005763168928	20	1.0
+Subclass	ref_scvi	knn	balanced_accuracy	0.9931958065246853	0.0006042792804141919	20	1.0
+Subclass	ref_scvi	knn	macro_f1	0.993072563638482	0.0006123700624235272	20	1.0
+Subclass	ref_scvi	knn	log_loss	0.023828106946364364	0.005170623761389426	20	1.0
+Subclass	ref_scvi	knn	brier	0.011442354888150793	0.0009226669088648306	20	1.0
+Subclass	ref_scvi	knn	ece	0.005317850961932748	0.0008666853694597083	20	1.0
+Subclass	ref_scvi	logreg_permuted	accuracy	0.03706811642692583		20	1.0
+Subclass	ref_scvi	logreg_permuted	balanced_accuracy	0.03451853227313574		20	1.0
+Subclass	ref_scvi	logreg_permuted	macro_f1	0.02948580918248101		20	1.0
+Subclass	ref_scvi	logreg_permuted	log_loss	3.1715622297918653		20	1.0
+Subclass	ref_scvi	logreg_permuted	brier	0.9580261632291162		20	1.0
+Subclass	ref_scvi	logreg_permuted	ece	0.021250267067662625		20	1.0
+Supertype	gf_random_v2_104m_cls	logreg	accuracy	0.6750303823501916	0.008910982881208427	768	0.01
+Supertype	gf_random_v2_104m_cls	logreg	balanced_accuracy	0.44722688687316464	0.005380854130825556	768	0.01
+Supertype	gf_random_v2_104m_cls	logreg	macro_f1	0.46342953980464296	0.004641035138296973	768	0.01
+Supertype	gf_random_v2_104m_cls	logreg	log_loss	1.0938908633565956	0.031807098474663356	768	0.01
+Supertype	gf_random_v2_104m_cls	logreg	brier	0.45494147358777354	0.011606478730266824	768	0.01
+Supertype	gf_random_v2_104m_cls	logreg	ece	0.05689641807022435	0.00686250376921571	768	0.01
+Supertype	gf_random_v2_104m_cls	knn	accuracy	0.30986257829297936	0.013016648775847071	768	0.01
+Supertype	gf_random_v2_104m_cls	knn	balanced_accuracy	0.12609713611572035	0.0034954959888433734	768	0.01
+Supertype	gf_random_v2_104m_cls	knn	macro_f1	0.11614856786939111	0.0046119080566790925	768	0.01
+Supertype	gf_random_v2_104m_cls	knn	log_loss	9.71675961713083	0.21481411874214043	768	0.01
+Supertype	gf_random_v2_104m_cls	knn	brier	0.8524933885901287	0.007415109950296247	768	0.01
+Supertype	gf_random_v2_104m_cls	knn	ece	0.0554398429584807	0.007671804935507251	768	0.01
+Supertype	gf_random_v2_104m_cls	logreg_permuted	accuracy	0.03339773982764978		768	0.01
+Supertype	gf_random_v2_104m_cls	logreg_permuted	balanced_accuracy	0.009984458721011261		768	0.01
+Supertype	gf_random_v2_104m_cls	logreg_permuted	macro_f1	0.007475157545818329		768	0.01
+Supertype	gf_random_v2_104m_cls	logreg_permuted	log_loss	4.523445323215392		768	0.01
+Supertype	gf_random_v2_104m_cls	logreg_permuted	brier	0.98983115061094		768	0.01
+Supertype	gf_random_v2_104m_cls	logreg_permuted	ece	0.04139080850870265		768	0.01
+Supertype	gf_v2_104m_cls	logreg	accuracy	0.9013929139010938	0.006281590494235433	768	0.1
+Supertype	gf_v2_104m_cls	logreg	balanced_accuracy	0.8419072406454425	0.006802891450020213	768	0.1
+Supertype	gf_v2_104m_cls	logreg	macro_f1	0.8507628780730677	0.00642419667311257	768	0.1
+Supertype	gf_v2_104m_cls	logreg	log_loss	0.2603777182008767	0.01583229725764932	768	0.1
+Supertype	gf_v2_104m_cls	logreg	brier	0.14518472435723986	0.008638665973337959	768	0.1
+Supertype	gf_v2_104m_cls	logreg	ece	0.020579879890442174	0.004655525561407579	768	0.1
+Supertype	gf_v2_104m_cls	knn	accuracy	0.8268860428157427	0.006153121709914335	768	0.1
+Supertype	gf_v2_104m_cls	knn	balanced_accuracy	0.671921621346832	0.00591327537782871	768	0.1
+Supertype	gf_v2_104m_cls	knn	macro_f1	0.6993766437704656	0.007319143793360769	768	0.1
+Supertype	gf_v2_104m_cls	knn	log_loss	0.638590408517132	0.027704961149881135	768	0.1
+Supertype	gf_v2_104m_cls	knn	brier	0.24806955221451743	0.005724197431866671	768	0.1
+Supertype	gf_v2_104m_cls	knn	ece	0.04088124398523632	0.006490229529741663	768	0.1
+Supertype	gf_v2_104m_cls	logreg_permuted	accuracy	0.027863071240766934		768	0.1
+Supertype	gf_v2_104m_cls	logreg_permuted	balanced_accuracy	0.01001564671606251		768	0.1
+Supertype	gf_v2_104m_cls	logreg_permuted	macro_f1	0.009098390068245806		768	0.1
+Supertype	gf_v2_104m_cls	logreg_permuted	log_loss	4.767834011380252		768	0.1
+Supertype	gf_v2_104m_cls	logreg_permuted	brier	0.9978120439074321		768	0.1
+Supertype	gf_v2_104m_cls	logreg_permuted	ece	0.06750243335393011		768	0.1
+Supertype	pca	logreg	accuracy	0.8802281013368234	0.005553496736585888	50	1.0
+Supertype	pca	logreg	balanced_accuracy	0.7908338999361804	0.004958599523106806	50	1.0
+Supertype	pca	logreg	macro_f1	0.8013488353950801	0.006424988307948427	50	1.0
+Supertype	pca	logreg	log_loss	0.30498793297526494	0.008724899816021071	50	1.0
+Supertype	pca	logreg	brier	0.17007334818616815	0.00659342156921361	50	1.0
+Supertype	pca	logreg	ece	0.008459817058890077	0.0031913588895661747	50	1.0
+Supertype	pca	knn	accuracy	0.8596054968682808	0.006409426942324946	50	1.0
+Supertype	pca	knn	balanced_accuracy	0.7243764301121894	0.004095297800445831	50	1.0
+Supertype	pca	knn	macro_f1	0.7434603655883232	0.003682082204519568	50	1.0
+Supertype	pca	knn	log_loss	0.597093356439865	0.011777560232894042	50	1.0
+Supertype	pca	knn	brier	0.20133728044273733	0.00616908652917887	50	1.0
+Supertype	pca	knn	ece	0.017552584833167965	0.005569870923365198	50	1.0
+Supertype	pca	logreg_permuted	accuracy	0.05458796940889504		50	1.0
+Supertype	pca	logreg_permuted	balanced_accuracy	0.012328646084436184		50	1.0
+Supertype	pca	logreg_permuted	macro_f1	0.003631554201396125		50	1.0
+Supertype	pca	logreg_permuted	log_loss	4.330423908902008		50	1.0
+Supertype	pca	logreg_permuted	brier	0.9824066508096863		50	1.0
+Supertype	pca	logreg_permuted	ece	0.012585056167494951		50	1.0
+Supertype	pca_harmony	logreg	accuracy	0.854052538094793	0.007343852796572551	50	1.0
+Supertype	pca_harmony	logreg	balanced_accuracy	0.7445752408913482	0.007852441278067217	50	1.0
+Supertype	pca_harmony	logreg	macro_f1	0.7551420950688184	0.008213679238636579	50	1.0
+Supertype	pca_harmony	logreg	log_loss	0.3811612706431357	0.014414032655364452	50	1.0
+Supertype	pca_harmony	logreg	brier	0.20915371346277306	0.008730279055064835	50	1.0
+Supertype	pca_harmony	logreg	ece	0.011434802002785653	0.0025366674294702513	50	1.0
+Supertype	pca_harmony	knn	accuracy	0.8383472001495746	0.009239736893742922	50	1.0
+Supertype	pca_harmony	knn	balanced_accuracy	0.6906114486302837	0.00693241148980426	50	1.0
+Supertype	pca_harmony	knn	macro_f1	0.7071295365984754	0.007646734135864638	50	1.0
+Supertype	pca_harmony	knn	log_loss	0.7831345966275775	0.0689785243351501	50	1.0
+Supertype	pca_harmony	knn	brier	0.23201637011312298	0.011959548153996847	50	1.0
+Supertype	pca_harmony	knn	ece	0.00970490166503938	0.0053860758212489505	50	1.0
+Supertype	pca_harmony	logreg_permuted	accuracy	0.05623686792007352		50	1.0
+Supertype	pca_harmony	logreg_permuted	balanced_accuracy	0.012697141869898931		50	1.0
+Supertype	pca_harmony	logreg_permuted	macro_f1	0.0037697532538370367		50	1.0
+Supertype	pca_harmony	logreg_permuted	log_loss	4.337850326182279		50	1.0
+Supertype	pca_harmony	logreg_permuted	brier	0.9823135273723498		50	1.0
+Supertype	pca_harmony	logreg_permuted	ece	0.014422809717565016		50	1.0
+Supertype	randproj	logreg	accuracy	0.7477984481630363	0.015500946400073667	50	0.1
+Supertype	randproj	logreg	balanced_accuracy	0.5888180988934891	0.016538053840769472	50	0.1
+Supertype	randproj	logreg	macro_f1	0.6065045953619764	0.014614528329686127	50	0.1
+Supertype	randproj	logreg	log_loss	0.7823854032222488	0.04301065715126032	50	0.1
+Supertype	randproj	logreg	brier	0.3531068371233233	0.017199546926392088	50	0.1
+Supertype	randproj	logreg	ece	0.027225651314672653	0.012445392670133955	50	0.1
+Supertype	randproj	knn	accuracy	0.6645414602224923	0.012758496443407905	50	0.1
+Supertype	randproj	knn	balanced_accuracy	0.42501312652623463	0.0067171052231386405	50	0.1
+Supertype	randproj	knn	macro_f1	0.454478581159265	0.008960194375969207	50	0.1
+Supertype	randproj	knn	log_loss	2.6782284944886707	0.19098896182020406	50	0.1
+Supertype	randproj	knn	brier	0.4601308362694094	0.01347640720518807	50	0.1
+Supertype	randproj	knn	ece	0.038793431219507714	0.007288746714885862	50	0.1
+Supertype	randproj	logreg_permuted	accuracy	0.04376712145705408		50	0.1
+Supertype	randproj	logreg_permuted	balanced_accuracy	0.01019888641399134		50	0.1
+Supertype	randproj	logreg_permuted	macro_f1	0.003813951234193287		50	0.1
+Supertype	randproj	logreg_permuted	log_loss	4.32105301839276		50	0.1
+Supertype	randproj	logreg_permuted	brier	0.9823071656198733		50	0.1
+Supertype	randproj	logreg_permuted	ece	0.006054241965942221		50	0.1
+Supertype	ref_scvi	logreg	accuracy	0.895858651958493	0.0038540592025678513	20	1.0
+Supertype	ref_scvi	logreg	balanced_accuracy	0.820414827504754	0.00591571867436485	20	1.0
+Supertype	ref_scvi	logreg	macro_f1	0.8310729388946164	0.005588264899525442	20	1.0
+Supertype	ref_scvi	logreg	log_loss	0.2685348323398205	0.005939557834818333	20	1.0
+Supertype	ref_scvi	logreg	brier	0.1494084418323698	0.003169657459696972	20	1.0
+Supertype	ref_scvi	logreg	ece	0.015536671742528794	0.001574958307159352	20	1.0
+Supertype	ref_scvi	knn	accuracy	0.8733663644012339	0.005392954845923663	20	1.0
+Supertype	ref_scvi	knn	balanced_accuracy	0.7591662767081291	0.008235633123090778	20	1.0
+Supertype	ref_scvi	knn	macro_f1	0.7818869342809452	0.008137652016539028	20	1.0
+Supertype	ref_scvi	knn	log_loss	0.4829541016911575	0.018189250526324856	20	1.0
+Supertype	ref_scvi	knn	brier	0.18587408723377002	0.005802049267590738	20	1.0
+Supertype	ref_scvi	knn	ece	0.03191175095939482	0.004266247482217064	20	1.0
+Supertype	ref_scvi	logreg_permuted	accuracy	0.04708944665519607		20	1.0
+Supertype	ref_scvi	logreg_permuted	balanced_accuracy	0.010126515306390155		20	1.0
+Supertype	ref_scvi	logreg_permuted	macro_f1	0.0016688736116039714		20	1.0
+Supertype	ref_scvi	logreg_permuted	log_loss	4.2874835426648055		20	1.0
+Supertype	ref_scvi	logreg_permuted	brier	0.9815698133902867		20	1.0
+Supertype	ref_scvi	logreg_permuted	ece	0.0034055075644476678		20	1.0
