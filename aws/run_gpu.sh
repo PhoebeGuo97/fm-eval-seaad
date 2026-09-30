@@ -7,7 +7,10 @@ mkdir -p work
 nvidia-smi --query-gpu=name,memory.total --format=csv
 
 # ---- environment
-sudo apt-get update -qq && sudo apt-get install -y -qq git-lfs python3-venv >/dev/null
+# skip apt when already installed: on a rerun, unattended-upgrades often holds the dpkg lock
+if ! command -v git-lfs >/dev/null || ! python3 -c "import venv, ensurepip" 2>/dev/null; then
+  sudo apt-get update -qq && sudo apt-get install -y -qq git-lfs python3-venv >/dev/null
+fi
 python3 -m venv ~/gf && source ~/gf/bin/activate
 pip install -q --upgrade pip
 pip install -q torch --index-url https://download.pytorch.org/whl/cu121

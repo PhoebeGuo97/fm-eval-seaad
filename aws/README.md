@@ -85,8 +85,10 @@ aws ec2 run-instances --region $REGION --image-id $AMI --instance-type g5.xlarge
 ```bash
 ssh -i ~/.ssh/<key>.pem ubuntu@<public-dns>
 git clone https://github.com/PhoebeGuo97/fm-eval-seaad.git && cd fm-eval-seaad
-tmux new -s gf          # survives an ssh drop
-bash aws/run_gpu.sh 2>&1 | tee work/gpu_run.log
+mkdir -p work
+# start inside a detached tmux session so an ssh drop or a closed laptop cannot kill it
+tmux new-session -d -s run "bash aws/run_gpu.sh >> work/gpu_run.log 2>&1"
+tail -f work/gpu_run.log      # Ctrl-C stops the tail only, not the job
 ```
 
 The script stops after a 200-cell debug extraction if anything is wrong, before
