@@ -86,6 +86,8 @@ of the identical statistic (1000 permutations, same splits).
 
 ### Cell type (macro-F1, logistic probe / 15-NN)
 
+![Supertype macro-F1 by embedding](figures/celltype_supertype.png)
+
 | embedding | dims | Subclass (24) | Supertype (106) |
 | --- | --- | --- | --- |
 | pca | 50 | 0.992 / 0.993 | 0.801 / 0.743 |
@@ -104,6 +106,8 @@ PCA plus Harmony, is the baseline to beat. Top-label ECE is at most 0.007 on
 Subclass and 0.008 to 0.041 on Supertype.
 
 ### Donor ADNC (Intermediate/High vs Not AD/Low, 63 vs 21 donors)
+
+![Donor ADNC AUROC against permutation nulls](figures/donor_adnc.png)
 
 AUROC averaged over 5 repeats of 5-fold CV; p from 1,000 label permutations
 on the identical statistic. "Beyond covariates" shuffles embedding rows across
@@ -131,6 +135,8 @@ separating pathology in most cell types is the clearest sign that the rank
 encoding itself transmits donor-level technical differences.
 
 ### What each embedding retains
+
+![Depth encoding vs ADNC prediction](figures/depth_vs_adnc.png)
 
 | embedding | donor recovery within subclass (x chance) | 10x chemistry, donors held out (balanced acc.) | donor median genes detected (CV R^2) |
 | --- | --- | --- | --- |
@@ -171,4 +177,5 @@ python scripts/05_eval_donor.py
 python scripts/06_batch_retention.py
 python scripts/07_dimension_matched.py         # then 04 and 05 with FMEVAL_RESULTS=results_dim
 python scripts/08_technical_confounds.py --embeddings pca pca_harmony gf_v2_104m_cls gf_random_v2_104m_cls
+python scripts/09_figures.py                   # README figures from the result tables
 ```
